@@ -40,4 +40,4 @@ You can install the development dependencies by running `npm i`. The following c
 
 ## Demo Site
 
-My family website, located at [eichefam.net])(https://eichefam.net), is using a child theme of Ankur.
+My family website, located at [eichefam.net](https://eichefam.net), is using a child theme of Ankur.
