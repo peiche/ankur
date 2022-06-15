@@ -1,0 +1,8 @@
+@use "sass:meta";
+
+.editor-styles-wrapper {
+
+	@include meta.load-css("editor/typography");
+	@include meta.load-css("editor/spacing");
+	@include meta.load-css("editor/blocks");
+}

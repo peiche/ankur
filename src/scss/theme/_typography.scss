@@ -1,0 +1,24 @@
+.has-text-color > a {
+	color: inherit;
+}
+
+.wp-block-site-title a:hover,
+.wp-block-post-title a:hover {
+	text-decoration: underline;
+}
+
+@media (min-width: 64rem) {
+
+	body {
+		--wp--preset--font-size--base: 1.25rem;
+		--wp--custom--text-scale-ratio: 1.25;
+		--wp--custom--space-unit: 1.25rem;
+	}
+}
+
+@media (min-width: 600px) {
+
+	.wp-block-navigation {
+		font-size: 1.125rem;
+	}
+}

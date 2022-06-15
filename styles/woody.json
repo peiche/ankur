@@ -1,0 +1,75 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 2,
+	"settings": {
+		"color": {
+			"palette": [
+				{
+                    "name": "Black",
+                    "slug": "black",
+                    "color": "hsl(204, 28%, 7%)"
+                },
+                {
+                    "name": "White",
+                    "slug": "white",
+                    "color": "hsl(0, 0%, 100%)"
+                },
+				{
+					"name": "Primary",
+					"slug": "primary",
+					"color": "hsl(52, 86%, 49%)"
+				},
+				{
+					"name": "Accent",
+					"slug": "accent",
+					"color": "hsl(19, 97%, 64%)"
+				},
+				{
+					"name": "Warning",
+					"slug": "warning",
+					"color": "hsl(52, 100%, 65%)"
+				},
+				{
+					"name": "Success",
+					"slug": "success",
+					"color": "hsl(99, 100%, 72%)"
+				},
+				{
+					"name": "Error",
+					"slug": "error",
+					"color": "hsl(354, 100%, 68%)"
+				},
+				{
+					"name": "Background",
+					"slug": "bg",
+					"color": "hsl(99, 18%, 35%)"
+				},
+				{
+					"name": "Contrast Lower",
+					"slug": "contrast-lower",
+					"color": "hsl(99, 13%, 44%)"
+				},
+				{
+					"name": "Contrast Low",
+					"slug": "contrast-low",
+					"color": "hsl(97, 10%, 56%)"
+				},
+				{
+					"name": "Contrast Medium",
+					"slug": "contrast-medium",
+					"color": "hsl(97, 10%, 69%)"
+				},
+				{
+					"name": "Contrast High",
+					"slug": "contrast-high",
+					"color": "hsl(100, 9%, 87%)"
+				},
+				{
+					"name": "Contrast Higher",
+					"slug": "contrast-higher",
+					"color": "hsl(0, 0%, 100%)"
+				}
+			]
+		}
+	}
+}

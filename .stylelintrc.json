@@ -1,0 +1,10 @@
+{
+	"extends": [
+		"@wordpress/stylelint-config/scss"
+	],
+	"rules": {
+		"block-no-empty": null,
+		"no-empty-source": null,
+		"selector-class-pattern": null
+	}
+}

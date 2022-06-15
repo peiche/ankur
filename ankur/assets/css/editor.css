@@ -1,0 +1,19 @@
+.editor-styles-wrapper .wp-block-post-title {
+  font-size: var(--wp--preset--font-size--xxxl);
+}
+.editor-styles-wrapper .wp-block-paragraph {
+  line-height: 1.58;
+}
+.editor-styles-wrapper .edit-post-visual-editor__post-title-wrapper {
+  padding-left: var(--wp--custom--component-padding);
+  padding-right: var(--wp--custom--component-padding);
+}
+.editor-styles-wrapper .is-root-container > *:not(.alignfull) {
+  padding-left: var(--wp--custom--component-padding);
+  padding-right: var(--wp--custom--component-padding);
+}
+.editor-styles-wrapper .is-style-underline > .wp-block-button__link {
+  background-color: transparent;
+  color: var(--wp--preset--color--contrast-high);
+  text-decoration: underline;
+}

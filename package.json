@@ -1,0 +1,31 @@
+{
+  "name": "ankur",
+  "version": "1.0.0",
+  "description": "Full site editing theme inspired by CodyFrame.",
+  "scripts": {
+    "lint:css": "wp-scripts lint-style \"src/**/*.scss\"",
+    "lint": "npm run lint:css",
+    "build": "wp-scripts build",
+    "export": "copyfiles assets/**/* inc/**/* parts/**/* patterns/**/* src/**/* styles/**/* templates/**/* *.php readme.txt style.css theme.json ankur",
+    "zip": "bestzip ankur.zip ankur"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peiche/ankur.git"
+  },
+  "author": "Paul Eiche <paul@boldoak.design>",
+  "license": "GPL-2.0-or-later",
+  "bugs": {
+    "url": "https://github.com/peiche/ankur/issues"
+  },
+  "homepage": "https://boldoak.design/ankur",
+  "devDependencies": {
+    "@wordpress/scripts": "^23.2.0",
+    "bestzip": "^2.2.1",
+    "copyfiles": "^2.4.1",
+    "mini-css-extract-plugin": "^2.6.0",
+    "path": "^0.12.7",
+    "postcss-preset-env": "^7.7.1",
+    "webpack-fix-style-only-entries": "^0.6.1"
+  }
+}

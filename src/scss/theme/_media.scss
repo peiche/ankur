@@ -1,0 +1,12 @@
+[class*="radius-"] > img {
+	border-radius: inherit;
+}
+
+.wp-block-image figcaption,
+.blocks-gallery-caption,
+.wp-block-embed figcaption {
+	font-size: var(--wp--preset--font-size--sm);
+	margin-bottom: 0;
+	margin-top: var(--wp--custom--space-xs);
+	color: var(--wp--preset--color--contrast-medium);
+}

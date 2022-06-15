@@ -1,0 +1,3 @@
+.wp-block-navigation:where(:not([class*="has-text-decoration"])) a:hover {
+	text-decoration: underline;
+}

@@ -1,0 +1,9 @@
+.edit-post-visual-editor__post-title-wrapper {
+	padding-left: var(--wp--custom--component-padding);
+	padding-right: var(--wp--custom--component-padding);
+}
+
+.is-root-container > *:not(.alignfull) {
+	padding-left: var(--wp--custom--component-padding);
+	padding-right: var(--wp--custom--component-padding);
+}
