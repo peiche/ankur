@@ -1,7 +1,7 @@
 {
   "name": "ankur",
   "version": "1.0.0",
-  "description": "Full site editing theme inspired by CodyFrame.",
+  "description": "WordPress block theme supporting full site editing",
   "scripts": {
     "lint:css": "wp-scripts lint-style \"src/**/*.scss\"",
     "lint": "npm run lint:css",
