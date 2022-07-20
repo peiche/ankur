@@ -1,0 +1,9 @@
+.wp-block-quote.is-style-plain {
+	border: 0;
+}
+
+.wp-block-quote.is-large:not(.is-style-plain) p,
+.wp-block-quote.is-style-large:not(.is-style-plain) p {
+	font-style: normal;
+	font-size: var(--wp--preset--font-size--xl);
+}

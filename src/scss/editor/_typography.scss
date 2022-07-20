@@ -5,3 +5,8 @@
 .wp-block-paragraph {
 	line-height: 1.58;
 }
+
+p,
+html :where(.editor-styles-wrapper) p {
+	font-size: var(--wp--preset--font-size--base);
+}

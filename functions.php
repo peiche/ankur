@@ -18,7 +18,7 @@ add_action( 'wp_enqueue_scripts', function() {
 		'ankur-style',
 		get_template_directory_uri() . '/assets/css/theme.css',
 		array(),
-		wp_get_theme()->get( 'Version' )
+		filemtime( get_template_directory() . '/assets/css/theme.css' )
 	);
 } );
 
@@ -42,7 +42,7 @@ add_action( 'enqueue_block_editor_assets', function() {
 		'ankur-editor-style',
 		get_template_directory_uri() . '/assets/css/editor.css',
 		array(),
-		wp_get_theme()->get( 'Version' )
+		filemtime( get_template_directory() . '/assets/css/editor.css' )
 	);
 } );
 

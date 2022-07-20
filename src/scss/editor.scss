@@ -1,7 +1,15 @@
 @use "sass:meta";
 
-.editor-styles-wrapper {
+// Double up specificity to override inline styles
+.editor-styles-wrapper.editor-styles-wrapper {
 
+	@media (min-width: 64rem) {
+		--wp--preset--font-size--base: 1.25rem;
+		--wp--custom--text-scale-ratio: 1.25;
+		--wp--custom--space-unit: 1.25rem;
+	}
+
+	@include meta.load-css("editor/reset");
 	@include meta.load-css("editor/typography");
 	@include meta.load-css("editor/spacing");
 	@include meta.load-css("editor/blocks");

@@ -2,11 +2,6 @@
 	color: inherit;
 }
 
-.wp-block-site-title a:hover,
-.wp-block-post-title a:hover {
-	text-decoration: underline;
-}
-
 @media (min-width: 64rem) {
 
 	body {
@@ -16,9 +11,8 @@
 	}
 }
 
-@media (min-width: 600px) {
-
-	.wp-block-navigation {
-		font-size: 1.125rem;
-	}
+.entry-content :not(.wp-block-code) > code {
+	background-color: var(--wp--preset--color--contrast-lower);
+	padding: var(--wp--custom--space-xxxxs) var(--wp--custom--space-xxxxs);
+	border-radius: var(--wp--custom--radius-sm);
 }

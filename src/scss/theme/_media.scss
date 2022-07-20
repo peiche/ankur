@@ -2,11 +2,29 @@
 	border-radius: inherit;
 }
 
+@media (max-width: 600px) {
+
+	.entry-content {
+
+		// make sure left- or right-aligned content
+		// is not floated on small screens
+		.alignright,
+		.alignleft {
+			float: none;
+			margin-inline-start: 0;
+		}
+	}
+}
+
+.wp-element-caption,
 .wp-block-image figcaption,
 .blocks-gallery-caption,
 .wp-block-embed figcaption {
 	font-size: var(--wp--preset--font-size--sm);
 	margin-bottom: 0;
-	margin-top: var(--wp--custom--space-xs);
 	color: var(--wp--preset--color--contrast-medium);
+}
+
+.wp-block-image figcaption {
+	margin-top: var(--wp--custom--space-xs);
 }

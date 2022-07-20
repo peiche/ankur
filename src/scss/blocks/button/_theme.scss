@@ -1,6 +1,18 @@
+// override inline default
+.wp-block-button__link:active,
+.wp-block-button__link:focus,
+.wp-block-button__link:hover,
+.wp-block-button__link:visited {
+	color: inherit;
+}
+
+// underline button style
 .wp-block-button.is-style-underline .wp-block-button__link {
 	background-color: transparent;
 	color: var(--wp--preset--color--contrast-high);
-	text-decoration: underline;
-	text-underline-offset: 1px;
+	text-decoration: 1px underline;
+
+	&:hover {
+		text-decoration-thickness: 2px;
+	}
 }

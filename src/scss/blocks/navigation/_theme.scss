@@ -1,3 +1,15 @@
-.wp-block-navigation:where(:not([class*="has-text-decoration"])) a:hover {
-	text-decoration: underline;
+@media (min-width: 600px) {
+
+	.wp-block-navigation {
+		font-size: 1.125rem;
+	}
+}
+
+.wp-block-navigation.has-text-decoration-underline .wp-block-navigation-item__content,
+.wp-block-navigation.has-text-decoration-underline .wp-block-navigation-item__content:active,
+.wp-block-navigation.has-text-decoration-underline .wp-block-navigation-item__content:focus {
+
+	&:hover {
+		text-decoration-thickness: 2px;
+	}
 }

@@ -41,3 +41,25 @@
 .text-nowrap {
 	white-space: nowrap;
 }
+
+.margin-0 {
+	margin: 0;
+}
+
+.is-hidden {
+	display: none;
+}
+
+.is-hidden-on-mobile {
+
+	@media (max-width: 781px) {
+		display: none;
+	}
+}
+
+.is-hidden-on-desktop {
+
+	@media (min-width: 782px) {
+		display: none;
+	}
+}
