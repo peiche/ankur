@@ -11,6 +11,7 @@ add_action( 'init', function() {
         'banner' => array( 'label' => __( 'Ankur/Banner', 'ankur' ) ),
         'card'   => array( 'label' => __( 'Ankur/Card', 'ankur' ) ),
         'hero'   => array( 'label' => __( 'Ankur/Hero', 'ankur' ) ),
+        'quote'  => array( 'label' => __( 'Ankur/Quote', 'ankur' ) ),
     );
 
     foreach ( $block_pattern_categories as $name => $properties ) {
