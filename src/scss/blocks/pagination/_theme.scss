@@ -1,4 +1,4 @@
-.is-style-buttons {
+.wp-block-query-pagination.is-style-buttons {
 
 	.page-numbers,
 	.wp-block-query-pagination-previous,
@@ -7,9 +7,13 @@
 		color: var(--wp--preset--color--contrast-high);
 		text-decoration: none;
 		border-radius: var(--wp--custom--radius-lg);
-		padding: var(--wp--custom--space-xxxs) var(--wp--custom--space-xs);
+		padding: var(--wp--preset--spacing--xxxs) var(--wp--preset--spacing--xs);
 		display: inline-block;
 		margin: 0;
+
+		&:hover {
+			text-decoration: none;
+		}
 	}
 
 	.page-numbers.current {

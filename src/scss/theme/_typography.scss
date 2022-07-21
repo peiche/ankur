@@ -13,6 +13,6 @@
 
 .entry-content :not(.wp-block-code) > code {
 	background-color: var(--wp--preset--color--contrast-lower);
-	padding: var(--wp--custom--space-xxxxs) var(--wp--custom--space-xxxxs);
+	padding: var(--wp--preset--spacing--xxxxs) var(--wp--preset--spacing--xxxxs);
 	border-radius: var(--wp--custom--radius-sm);
 }

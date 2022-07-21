@@ -9,7 +9,7 @@
 		color: var(--wp--preset--color--contrast-high);
 		text-decoration: none;
 		border-radius: 9999px;
-		padding: var(--wp--custom--space-xxxs) var(--wp--custom--space-xs);
+		padding: var(--wp--preset--spacing--xxxs) var(--wp--preset--spacing--xs);
 
 		&::after {
 			content: "";
@@ -21,6 +21,6 @@
 		background-color: transparent;
 		color: var(--wp--preset--color--contrast-high);
 		border: 2px solid var(--wp--preset--color--contrast-low);
-		padding: var(--wp--custom--space-xxxxs) var(--wp--custom--space-xxs);
+		padding: var(--wp--preset--spacing--xxxxs) var(--wp--preset--spacing--xxs);
 	}
 }

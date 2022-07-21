@@ -10,18 +10,7 @@
             "lineHeightHeading": "1.2",
             "lineHeightMultiplier": "1",
             "spaceUnit": "1rem",
-            "spaceXxxxs": "calc(0.1875 * var(--wp--custom--space-unit))",
-            "spaceXxxs": "calc(0.375 * var(--wp--custom--space-unit))",
-            "spaceXxs": "calc(0.5625 * var(--wp--custom--space-unit))",
-            "spaceXs": "calc(0.75 * var(--wp--custom--space-unit))",
-            "spaceSm": "calc(1.125 * var(--wp--custom--space-unit))",
-            "spaceMd": "calc(2 * var(--wp--custom--space-unit))",
-            "spaceLg": "calc(3.125 * var(--wp--custom--space-unit))",
-            "spaceXl": "calc(5.125 * var(--wp--custom--space-unit))",
-            "spaceXxl": "calc(8.25 * var(--wp--custom--space-unit))",
-            "spaceXxxl": "calc(13.25 * var(--wp--custom--space-unit))",
-            "spaceXxxxl": "calc(21.5 * var(--wp--custom--space-unit))",
-            "componentPadding": "var(--wp--custom--space-sm)",
+            "componentPadding": "var(--wp--preset--spacing--sm)",
             "radius": "0.25rem",
             "radiusSm": "calc(var(--wp--custom--radius) / 2)",
             "radiusMd": "var(--wp--custom--radius)",
@@ -119,7 +108,65 @@
                 "vw",
                 "%"
             ],
-            "blockGap": true
+            "blockGap": true,
+            "customSpacingSize": false,
+            "spacingSizes": [
+                {
+                    "name": "xxxxs",
+                    "slug": "xxxxs",
+                    "size": "calc(0.1875 * var(--wp--custom--space-unit))"
+                },
+                {
+                    "name": "xxxs",
+                    "slug": "xxxs",
+                    "size": "calc(0.375 * var(--wp--custom--space-unit))"
+                },
+                {
+                    "name": "xxs",
+                    "slug": "xxs",
+                    "size": "calc(0.5625 * var(--wp--custom--space-unit))"
+                },
+                {
+                    "name": "xs",
+                    "slug": "xs",
+                    "size": "calc(0.75 * var(--wp--custom--space-unit))"
+                },
+                {
+                    "name": "sm",
+                    "slug": "sm",
+                    "size": "calc(1.125 * var(--wp--custom--space-unit))"
+                },
+                {
+                    "name": "md",
+                    "slug": "md",
+                    "size": "calc(2 * var(--wp--custom--space-unit))"
+                },
+                {
+                    "name": "lg",
+                    "slug": "lg",
+                    "size": "calc(3.125 * var(--wp--custom--space-unit))"
+                },
+                {
+                    "name": "xl",
+                    "slug": "xl",
+                    "size": "calc(5.125 * var(--wp--custom--space-unit))"
+                },
+                {
+                    "name": "xxl",
+                    "slug": "xxl",
+                    "size": "calc(8.25 * var(--wp--custom--space-unit))"
+                },
+                {
+                    "name": "xxxl",
+                    "slug": "xxxl",
+                    "size": "calc(13.25 * var(--wp--custom--space-unit))"
+                },
+                {
+                    "name": "xxxxl",
+                    "slug": "xxxxl",
+                    "size": "calc(21.5 * var(--wp--custom--space-unit))"
+                }
+            ]
         },
         "typography": {
             "fontFamilies": [
@@ -240,6 +287,28 @@
                     "typography": {
                         "textDecoration": "2px underline"
                     }
+                }
+            },
+            "button": {
+                "typography": {
+                    "fontSize": "var(--wp--preset--font-size--base)",
+                    "lineHeight": "1.2"
+                },
+                "border": {
+                    "bottom": "0",
+                    "radius": "var(--wp--custom--radius-md)"
+                },
+                "spacing": {
+                    "padding": {
+                        "top": "var(--wp--preset--spacing--xxs)",
+                        "bottom": "var(--wp--preset--spacing--xxs)",
+                        "left": "var(--wp--preset--spacing--sm)",
+                        "right": "var(--wp--preset--spacing--sm)"
+                    }
+                },
+                "color": {
+                    "text": "var(--wp--preset--color--bg)",
+                    "background": "var(--wp--preset--color--contrast-high)"
                 }
             },
             "caption": {
@@ -406,10 +475,10 @@
                 },
                 "spacing": {
                     "padding": {
-                        "top": "var(--wp--custom--space-xxs)",
-                        "bottom": "var(--wp--custom--space-xxs)",
-                        "left": "var(--wp--custom--space-sm)",
-                        "right": "var(--wp--custom--space-sm)"
+                        "top": "var(--wp--preset--spacing--xxs)",
+                        "bottom": "var(--wp--preset--spacing--xxs)",
+                        "left": "var(--wp--preset--spacing--sm)",
+                        "right": "var(--wp--preset--spacing--sm)"
                     }
                 },
                 "color": {
