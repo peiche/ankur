@@ -5,8 +5,8 @@
 
 	@media (min-width: 64rem) {
 		--wp--preset--font-size--base: 1.25rem;
+		--wp--preset--spacing--unit: 1.25rem;
 		--wp--custom--text-scale-ratio: 1.25;
-		--wp--custom--space-unit: 1.25rem;
 	}
 
 	@include meta.load-css("editor/reset");

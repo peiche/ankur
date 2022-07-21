@@ -9,8 +9,8 @@
 @media (min-width: 64rem) {
   body {
     --wp--preset--font-size--base: 1.25rem;
+    --wp--preset--spacing--unit: 1.25rem;
     --wp--custom--text-scale-ratio: 1.25;
-    --wp--custom--space-unit: 1.25rem;
   }
 }
 .entry-content :not(.wp-block-code) > code {
@@ -32,18 +32,18 @@
 }
 
 .wp-site-blocks {
-  padding-left: var(--wp--custom--component-padding);
-  padding-right: var(--wp--custom--component-padding);
+  padding-left: var(--wp--preset--spacing--component-padding);
+  padding-right: var(--wp--preset--spacing--component-padding);
 }
 .wp-site-blocks > .site-header,
 .wp-site-blocks > .site-footer {
-  margin-left: calc(-1 * var(--wp--custom--component-padding));
-  margin-right: calc(-1 * var(--wp--custom--component-padding));
+  margin-left: calc(-1 * var(--wp--preset--spacing--component-padding));
+  margin-right: calc(-1 * var(--wp--preset--spacing--component-padding));
 }
 .wp-site-blocks .alignfull {
   width: unset;
-  margin-left: calc(-1 * var(--wp--custom--component-padding)) !important;
-  margin-right: calc(-1 * var(--wp--custom--component-padding)) !important;
+  margin-left: calc(-1 * var(--wp--preset--spacing--component-padding)) !important;
+  margin-right: calc(-1 * var(--wp--preset--spacing--component-padding)) !important;
 }
 
 .alignfull .alignfull {
@@ -52,8 +52,8 @@
 }
 
 .entry-content.alignfull .alignfull {
-  margin-left: calc(-1 * var(--wp--custom--component-padding)) !important;
-  margin-right: calc(-1 * var(--wp--custom--component-padding)) !important;
+  margin-left: calc(-1 * var(--wp--preset--spacing--component-padding)) !important;
+  margin-right: calc(-1 * var(--wp--preset--spacing--component-padding)) !important;
 }
 .entry-content.alignfull .alignfull .alignfull {
   margin-left: auto !important;

@@ -1,8 +1,8 @@
 @media (min-width: 64rem) {
   .editor-styles-wrapper.editor-styles-wrapper {
     --wp--preset--font-size--base: 1.25rem;
+    --wp--preset--spacing--unit: 1.25rem;
     --wp--custom--text-scale-ratio: 1.25;
-    --wp--custom--space-unit: 1.25rem;
   }
 }
 .editor-styles-wrapper.editor-styles-wrapper * {
@@ -21,8 +21,8 @@
 @media (max-width: 80rem) {
   .editor-styles-wrapper.editor-styles-wrapper .is-root-container > *:not(.alignfull),
 .editor-styles-wrapper.editor-styles-wrapper .edit-post-visual-editor__post-title-wrapper {
-    padding-left: var(--wp--custom--component-padding);
-    padding-right: var(--wp--custom--component-padding);
+    padding-left: var(--wp--preset--spacing--component-padding);
+    padding-right: var(--wp--preset--spacing--component-padding);
   }
 }
 .editor-styles-wrapper.editor-styles-wrapper .wp-block-button.is-style-outline {

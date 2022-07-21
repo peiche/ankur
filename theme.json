@@ -9,8 +9,6 @@
             "lineHeightBody": "1.4",
             "lineHeightHeading": "1.2",
             "lineHeightMultiplier": "1",
-            "spaceUnit": "1rem",
-            "componentPadding": "var(--wp--preset--spacing--sm)",
             "radius": "0.25rem",
             "radiusSm": "calc(var(--wp--custom--radius) / 2)",
             "radiusMd": "var(--wp--custom--radius)",
@@ -112,59 +110,69 @@
             "customSpacingSize": false,
             "spacingSizes": [
                 {
+                    "name": "Unit",
+                    "slug": "unit",
+                    "size": "1rem"
+                },
+                {
+                    "name": "Component Padding",
+                    "slug": "component-padding",
+                    "size": "var(--wp--preset--spacing--sm)"
+                },
+                {
                     "name": "xxxxs",
                     "slug": "xxxxs",
-                    "size": "calc(0.1875 * var(--wp--custom--space-unit))"
+                    "size": "calc(0.1875 * var(--wp--preset--spacing--unit))"
                 },
                 {
                     "name": "xxxs",
                     "slug": "xxxs",
-                    "size": "calc(0.375 * var(--wp--custom--space-unit))"
+                    "size": "calc(0.375 * var(--wp--preset--spacing--unit))"
                 },
                 {
                     "name": "xxs",
                     "slug": "xxs",
-                    "size": "calc(0.5625 * var(--wp--custom--space-unit))"
+                    "size": "calc(0.5625 * var(--wp--preset--spacing--unit))"
                 },
                 {
                     "name": "xs",
                     "slug": "xs",
-                    "size": "calc(0.75 * var(--wp--custom--space-unit))"
+                    "size": "calc(0.75 * var(--wp--preset--spacing--unit))"
                 },
                 {
                     "name": "sm",
                     "slug": "sm",
-                    "size": "calc(1.125 * var(--wp--custom--space-unit))"
+                    "size": "calc(1.125 * var(--wp--preset--spacing--unit))"
                 },
                 {
                     "name": "md",
                     "slug": "md",
-                    "size": "calc(2 * var(--wp--custom--space-unit))"
+                    "size": "calc(2 * var(--wp--preset--spacing--unit))"
                 },
                 {
                     "name": "lg",
                     "slug": "lg",
-                    "size": "calc(3.125 * var(--wp--custom--space-unit))"
+                    "size": "calc(3.125 * var(--wp--preset--spacing--unit))"
                 },
                 {
                     "name": "xl",
                     "slug": "xl",
-                    "size": "calc(5.125 * var(--wp--custom--space-unit))"
+                    "size": "calc(5.125 * var(--wp--preset--spacing--unit))"
                 },
                 {
                     "name": "xxl",
                     "slug": "xxl",
-                    "size": "calc(8.25 * var(--wp--custom--space-unit))"
+                    "size": "calc(8.25 * var(--wp--preset--spacing--unit))"
                 },
                 {
                     "name": "xxxl",
                     "slug": "xxxl",
-                    "size": "calc(13.25 * var(--wp--custom--space-unit))"
+                    "size": "calc(13.25 * var(--wp--preset--spacing--unit))"
                 },
                 {
                     "name": "xxxxl",
                     "slug": "xxxxl",
-                    "size": "calc(21.5 * var(--wp--custom--space-unit))"
+                    "size": "calc(21.5 * var(--wp--preset--spacing--unit))"
                 }
             ]
         },
@@ -238,7 +246,7 @@
             "lineHeight": "calc(var(--wp--custom--line-height-body) * var(--wp--custom--line-height-multiplier, 1))"
         },
         "spacing": {
-            "blockGap": "var(--wp--custom--component-padding)"
+            "blockGap": "var(--wp--preset--spacing--component-padding)"
         },
         "elements": {
             "h1": {
@@ -252,7 +260,7 @@
                 },
                 "spacing": {
                     "margin": {
-                        "top": "calc(var(--wp--custom--space-unit) * 0.9375 * var(--wp--custom--text-space-y-multiplier))"
+                        "top": "calc(var(--wp--preset--spacing--unit) * 0.9375 * var(--wp--custom--text-space-y-multiplier))"
                     }
                 }
             },
@@ -262,7 +270,7 @@
                 },
                 "spacing": {
                     "margin": {
-                        "top": "calc(var(--wp--custom--space-unit) * 0.9375 * var(--wp--custom--text-space-y-multiplier))"
+                        "top": "calc(var(--wp--preset--spacing--unit) * 0.9375 * var(--wp--custom--text-space-y-multiplier))"
                     }
                 }
             },
@@ -272,7 +280,7 @@
                 },
                 "spacing": {
                     "margin": {
-                        "top": "calc(var(--wp--custom--space-unit) * 0.9375 * var(--wp--custom--text-space-y-multiplier))"
+                        "top": "calc(var(--wp--preset--spacing--unit) * 0.9375 * var(--wp--custom--text-space-y-multiplier))"
                     }
                 }
             },
@@ -340,7 +348,7 @@
                 },
                 "spacing": {
                     "margin": {
-                        "bottom": "calc(var(--wp--custom--space-unit) * 0.3125 * var(--wp--custom--text-space-y-multiplier))"
+                        "bottom": "calc(var(--wp--preset--spacing--unit) * 0.3125 * var(--wp--custom--text-space-y-multiplier))"
                     }
                 },
                 "elements": {
