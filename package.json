@@ -5,7 +5,8 @@
   "scripts": {
     "lint:css": "wp-scripts lint-style \"src/**/*.scss\"",
     "lint": "npm run lint:css",
-    "build": "wp-scripts build",
+    "clean": "rimraf \"./assets\" \"./ankur\"",
+    "build": "npm run clean && wp-scripts build",
     "export": "copyfiles assets/**/* inc/**/* parts/**/* patterns/**/* src/**/* styles/**/* templates/**/* *.php readme.txt style.css theme.json ankur",
     "zip": "bestzip ankur.zip ankur"
   },
@@ -26,6 +27,7 @@
     "mini-css-extract-plugin": "^2.6.0",
     "path": "^0.12.7",
     "postcss-preset-env": "^7.7.1",
+    "rimraf": "^2.7.1",
     "webpack-fix-style-only-entries": "^0.6.1"
   }
 }
