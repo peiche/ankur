@@ -1,9 +1,4 @@
-@media (min-width: 600px) {
-
-	.wp-block-navigation {
-		font-size: 1.125rem;
-	}
-}
+@use "./base" as *;
 
 .wp-block-navigation.has-text-decoration-underline .wp-block-navigation-item__content,
 .wp-block-navigation.has-text-decoration-underline .wp-block-navigation-item__content:active,

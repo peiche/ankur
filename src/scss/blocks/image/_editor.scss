@@ -1,7 +1,1 @@
-.wp-block-image.is-style-rounded img {
-	border-radius: var(--wp--custom--radius-md);
-}
-
-.wp-block-image.is-style-pill img {
-	border-radius: 9999px;
-}
+@use "./base" as *;

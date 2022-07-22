@@ -1,16 +1,14 @@
+@use "./base" as *;
+
 .wp-block-button {
 
-	&.is-style-outline {
-		color: var(--wp--preset--color--contrast-high);
-	}
+	&.is-style-underline {
+		
+		.wp-block-button__link {
 
-	&.is-style-underline .wp-block-button__link {
-		background-color: transparent;
-		color: var(--wp--preset--color--contrast-high);
-		text-decoration: 1px underline;
-
-		&:hover {
-			text-decoration-thickness: 2px;
+			&:hover {
+				text-decoration-thickness: 2px;
+			}
 		}
 	}
 

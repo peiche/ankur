@@ -1,5 +1,10 @@
-.wp-block-post-featured-image > a,
-.wp-block-post-featured-image > img,
-.wp-block-post-featured-image > a > img {
-	border-radius: inherit;
+@use "./base" as *;
+
+.wp-block-post-featured-image {
+
+	> a,
+	> img,
+	> a > img {
+		border-radius: inherit;
+	}
 }

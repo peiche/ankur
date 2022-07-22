@@ -1,7 +1,1 @@
-.wp-block-embed {
-
-	&.is-style-rounded {
-		border-radius: var(--wp--custom--radius-md);
-		overflow: hidden;
-	}
-}
+@use "./base" as *;

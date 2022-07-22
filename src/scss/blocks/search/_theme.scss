@@ -1,22 +1,30 @@
+@use "./base" as *;
+
 .wp-block-search {
 	max-width: 100%;
-}
 
-.wp-block-search__button {
-	background: none;
-}
+	&__button {
+		background: none;
 
-.wp-block-search__button.has-icon {
-	margin: 0;
-	border: 0;
-}
+		&.has-icon {
+			margin: 0;
+			border: 0;
+			padding: var(--wp--preset--spacing--xxxxs);
+		}
+	}
 
-.wp-block-search__inside-wrapper {
-	background-color: var(--wp--preset--color--white);
-}
+	&__inside-wrapper {
+		background-color: var(--wp--preset--color--white);
+		padding:
+			var(--wp--preset--spacing--xxxxs) 
+			var(--wp--preset--spacing--xxxxs) 
+			var(--wp--preset--spacing--xxxxs) 
+			var(--wp--preset--spacing--xxxs);
+	}
 
-.wp-block-search__input {
-	background: none;
+	&__input {
+		background: none;
+	}
 }
 
 .is-menu-open.has-modal-open .wp-block-search {

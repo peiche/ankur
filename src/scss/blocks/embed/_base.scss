@@ -1,0 +1,10 @@
+.wp-block-embed {
+
+	&.is-style-rounded {
+
+		.wp-block-embed__wrapper {
+			border-radius: var(--wp--custom--radius-md);
+			overflow: hidden;
+		}
+	}
+}
