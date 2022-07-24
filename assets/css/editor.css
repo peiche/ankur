@@ -31,7 +31,7 @@
 .editor-styles-wrapper.editor-styles-wrapper .wp-block-button.is-style-underline > .wp-block-button__link {
   background-color: transparent;
   color: var(--wp--preset--color--contrast-high);
-  text-decoration: underline;
+  text-decoration: 1px underline;
 }
 .editor-styles-wrapper.editor-styles-wrapper .wp-block-embed.is-style-rounded .wp-block-embed__wrapper {
   border-radius: var(--wp--custom--radius-md);
