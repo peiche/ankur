@@ -1,0 +1,22 @@
+.wp-block-gallery {
+
+	&.has-nested-images {
+
+		figure.wp-block-image figcaption,
+		figure.wp-block-image.is-style-rounded figcaption.wp-element-caption {
+			background: linear-gradient(0deg, #000000b3, #0000004d 70%, #0000);
+			bottom: 0;
+			box-sizing: border-box;
+			color: #fff;
+			font-size: 13px;
+			left: 0;
+			margin-bottom: 0;
+			max-height: 60%;
+			overflow: auto;
+			padding: 0 8px 8px;
+			position: absolute;
+			text-align: center;
+			width: 100%;
+		}
+	}
+}
