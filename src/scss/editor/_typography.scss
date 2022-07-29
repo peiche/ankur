@@ -10,3 +10,8 @@ p,
 html :where(.editor-styles-wrapper) p {
 	font-size: var(--wp--preset--font-size--base);
 }
+
+.alignfull {
+	margin-left: auto;
+	margin-right: auto;
+}
