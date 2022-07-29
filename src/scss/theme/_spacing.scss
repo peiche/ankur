@@ -2,18 +2,12 @@
 	padding-left: var(--wp--preset--spacing--component-padding);
 	padding-right: var(--wp--preset--spacing--component-padding);
 
-	> .site-header,
-	> .site-footer {
-		margin-left: calc(-1 * var(--wp--preset--spacing--component-padding));
-		margin-right: calc(-1 * var(--wp--preset--spacing--component-padding));
-	}
-
 	.alignfull {
 		width: unset;
 		margin-left: calc(-1 * var(--wp--preset--spacing--component-padding)) !important;
 		margin-right: calc(-1 * var(--wp--preset--spacing--component-padding)) !important;
 
-		&.wp-block-post-content {
+		.alignfull {
 			margin-left: auto !important;
 			margin-right: auto !important;
 		}
