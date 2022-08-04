@@ -246,7 +246,11 @@
             "lineHeight": "calc(var(--wp--custom--line-height-body) * var(--wp--custom--line-height-multiplier, 1))"
         },
         "spacing": {
-            "blockGap": "var(--wp--preset--spacing--component-padding)"
+            "blockGap": "var(--wp--preset--spacing--component-padding)",
+            "padding": {
+                "left": "var(--wp--preset--spacing--component-padding)",
+                "right": "var(--wp--preset--spacing--component-padding)"
+            }
         },
         "elements": {
             "h1": {

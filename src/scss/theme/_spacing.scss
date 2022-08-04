@@ -1,6 +1,4 @@
 .wp-site-blocks {
-	padding-left: var(--wp--preset--spacing--component-padding);
-	padding-right: var(--wp--preset--spacing--component-padding);
 
 	.alignfull {
 		width: unset;
@@ -10,6 +8,21 @@
 		.alignfull {
 			margin-left: auto !important;
 			margin-right: auto !important;
+		}
+	}
+
+	.entry-content.alignfull {
+		padding-left: var(--wp--preset--spacing--component-padding) !important;
+		padding-right: var(--wp--preset--spacing--component-padding) !important;
+
+		.alignfull {
+			margin-left: calc(-1 * var(--wp--preset--spacing--component-padding)) !important;
+			margin-right: calc(-1 * var(--wp--preset--spacing--component-padding)) !important;
+
+			.alignfull {
+				margin-left: auto !important;
+				margin-right: auto !important;
+			}
 		}
 	}
 }
