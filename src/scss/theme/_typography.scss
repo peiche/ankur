@@ -1,4 +1,4 @@
-.has-text-color > a {
+.has-text-color a:not(.wp-element-button) {
 	color: inherit;
 }
 
