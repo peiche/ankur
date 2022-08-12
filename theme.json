@@ -237,7 +237,8 @@
                 }
             ],
             "lineHeight": true
-        }
+        },
+        "useRootPaddingAwareAlignments": true
     },
     "styles": {
         "typography": {

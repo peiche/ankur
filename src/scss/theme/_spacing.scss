@@ -1,28 +1,5 @@
-.wp-site-blocks {
-
-	.alignfull {
-		width: unset;
-		margin-left: calc(-1 * var(--wp--preset--spacing--component-padding)) !important;
-		margin-right: calc(-1 * var(--wp--preset--spacing--component-padding)) !important;
-
-		.alignfull {
-			margin-left: auto !important;
-			margin-right: auto !important;
-		}
-	}
-
-	.entry-content.alignfull {
-		padding-left: var(--wp--preset--spacing--component-padding) !important;
-		padding-right: var(--wp--preset--spacing--component-padding) !important;
-
-		.alignfull {
-			margin-left: calc(-1 * var(--wp--preset--spacing--component-padding)) !important;
-			margin-right: calc(-1 * var(--wp--preset--spacing--component-padding)) !important;
-
-			.alignfull {
-				margin-left: auto !important;
-				margin-right: auto !important;
-			}
-		}
-	}
+// override default extra padding
+.has-global-padding > .alignfull > :where([class*="wp-block-"]:not(.alignfull):not(.alignfull):not([class*="__"]),p,h1,h2,h3,h4,h5,h6,ul,ol) {
+	padding-left: 0;
+	padding-right: 0;
 }
