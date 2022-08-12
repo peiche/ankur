@@ -2,16 +2,6 @@
 
 .wp-block-button {
 
-	&.is-style-underline {
-		
-		.wp-block-button__link {
-
-			&:hover {
-				text-decoration-thickness: 2px;
-			}
-		}
-	}
-
 	&__link {
 
 		// override inline default
@@ -20,6 +10,16 @@
 		&:hover,
 		&:visited {
 			color: inherit;
+		}
+	}
+
+	&.is-style-underline {
+
+		.wp-block-button__link {
+
+			&:hover {
+				text-decoration-thickness: 2px;
+			}
 		}
 	}
 }
