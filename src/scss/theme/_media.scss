@@ -17,14 +17,26 @@
 }
 
 .wp-element-caption,
+.wp-block-audio figcaption,
+.wp-block-embed figcaption,
+.wp-block-gallery figcaption,
 .wp-block-image figcaption,
-.blocks-gallery-caption,
-.wp-block-embed figcaption {
-	font-size: var(--wp--preset--font-size--sm);
+.wp-block-table figcaption,
+.wp-block-video figcaption {
 	margin-bottom: 0;
 	color: var(--wp--preset--color--contrast-medium);
+	font-size: var(--wp--preset--font-size--sm);
 }
 
-.wp-block-image figcaption {
+.wp-element-caption,
+.wp-block-audio figcaption,
+.wp-block-embed figcaption,
+.wp-block-image figcaption,
+.wp-block-table figcaption,
+.wp-block-video figcaption {
 	margin-top: var(--wp--preset--spacing--xs);
+}
+
+.wp-block-gallery figcaption {
+	margin-top: 0;
 }
