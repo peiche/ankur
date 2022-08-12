@@ -1,8 +1,5 @@
 .is-root-container > *:not(.alignfull),
 .edit-post-visual-editor__post-title-wrapper {
-
-	@media (max-width: 80rem) {
-		padding-left: var(--wp--preset--spacing--component-padding);
-		padding-right: var(--wp--preset--spacing--component-padding);
-	}
+	padding-left: var(--wp--preset--spacing--component-padding);
+	padding-right: var(--wp--preset--spacing--component-padding);
 }
