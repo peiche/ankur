@@ -498,14 +498,6 @@
                     "background": "var(--wp--preset--color--contrast-high)"
                 }
             },
-            "core/image": {
-                "typography": {
-                    "fontSize": "var(--wp--preset--font-size--sm)"
-                },
-                "color": {
-                    "text": "var(--wp--preset--color--contrast-medium)"
-                }
-            },
             "core/quote": {
                 "border": {
                     "color": "var(--wp--preset--color--contrast-lower)",
