@@ -1,5 +1,14 @@
-.has-text-color a:not(.wp-element-button) {
-	color: inherit;
+.has-text-color {
+
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6,
+	a:not(.wp-element-button) {
+		color: inherit;
+	}
 }
 
 @media (min-width: 64rem) {
