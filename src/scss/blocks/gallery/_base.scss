@@ -19,4 +19,17 @@
 			width: 100%;
 		}
 	}
+
+	&.is-style-diamond {
+		transform: scale(.71) rotate(-45deg);
+
+		.wp-block-image {
+			aspect-ratio: 1;
+			overflow: hidden;
+
+			img {
+				transform: scale(1.414) rotate(45deg);
+			}
+		}
+	}
 }

@@ -61,4 +61,12 @@ add_action( 'init', function() {
             'className' => 'is-style-rounded',
         ],
     ] );
+
+    register_block_style( 'core/gallery', [
+        'name' => 'diamond',
+        'label' => __( 'Diamond', 'ankur' ),
+        'attributes' => [
+            'className' => 'is-style-diamond',
+        ],
+    ] );
 } );
