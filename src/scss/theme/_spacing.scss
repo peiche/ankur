@@ -1,5 +1,10 @@
 // override default extra padding
-.has-global-padding > .alignfull > :where([class*="wp-block-"]:not(.alignfull):not(.alignfull):not([class*="__"]),p,h1,h2,h3,h4,h5,h6,ul,ol) {
+.has-global-padding > .alignfull > :where([class*="wp-block-"]:not(.alignfull):not(.alignfull):not([class*="__"]):not(ol,ul):not(.wp-block-code),p,h1,h2,h3,h4,h5,h6) {
 	padding-left: 0;
+	padding-right: 0;
+}
+
+// fix for lists
+.has-global-padding > .alignfull > :where(ul,ol) {
 	padding-right: 0;
 }
