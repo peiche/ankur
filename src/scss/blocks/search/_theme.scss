@@ -16,14 +16,23 @@
 	&__inside-wrapper {
 		background-color: var(--wp--preset--color--white);
 		padding:
-			var(--wp--preset--spacing--xxxxs)
-			var(--wp--preset--spacing--xxxxs)
-			var(--wp--preset--spacing--xxxxs)
-			var(--wp--preset--spacing--xxxs);
+			var(--wp--preset--spacing--xxxs)
+			var(--wp--preset--spacing--xxxs)
+			var(--wp--preset--spacing--xxxs)
+			var(--wp--preset--spacing--xxs);
+
+		@media (min-width: 64rem) {
+			padding:
+				var(--wp--preset--spacing--xxxxs)
+				var(--wp--preset--spacing--xxxxs)
+				var(--wp--preset--spacing--xxxxs)
+				var(--wp--preset--spacing--xxxs);
+		}
 	}
 
 	&__input {
 		background: none;
+		font-size: inherit;
 	}
 }
 

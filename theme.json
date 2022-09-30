@@ -254,6 +254,20 @@
             }
         },
         "elements": {
+            "heading": {
+                "color": {
+                    "text": "var(--wp--preset--color--contrast-higher)"
+                },
+                "typography": {
+                    "fontWeight": "700",
+                    "lineHeight": "calc(var(--wp--custom--line-height-heading) * var(--wp--custom--line-height-multiplier))"
+                },
+                "spacing": {
+                    "margin": {
+                        "bottom": "calc(var(--wp--preset--spacing--unit) * 0.3125 * var(--wp--custom--text-space-y-multiplier))"
+                    }
+                }
+            },
             "h1": {
                 "typography": {
                     "fontSize": "var(--wp--preset--font-size--xxl)"
@@ -344,18 +358,6 @@
         },
         "blocks": {
             "core/heading": {
-                "color": {
-                    "text": "var(--wp--preset--color--contrast-higher)"
-                },
-                "typography": {
-                    "fontWeight": "700",
-                    "lineHeight": "calc(var(--wp--custom--line-height-heading) * var(--wp--custom--line-height-multiplier))"
-                },
-                "spacing": {
-                    "margin": {
-                        "bottom": "calc(var(--wp--preset--spacing--unit) * 0.3125 * var(--wp--custom--text-space-y-multiplier))"
-                    }
-                },
                 "elements": {
                     "link": {
                         "typography": {
@@ -413,6 +415,12 @@
                 "color": {
                     "background": "var(--wp--preset--color--contrast-high)",
                     "text": "var(--wp--preset--color--contrast-lower)"
+                },
+                "spacing": {
+                    "padding": {
+                        "top": "var(--wp--preset--spacing--xs)",
+                        "bottom": "var(--wp--preset--spacing--xs)"
+                    }
                 }
             },
             "core/preformatted": {

@@ -27,7 +27,8 @@
 .editor-styles-wrapper.editor-styles-wrapper .has-text-color h3,
 .editor-styles-wrapper.editor-styles-wrapper .has-text-color h4,
 .editor-styles-wrapper.editor-styles-wrapper .has-text-color h5,
-.editor-styles-wrapper.editor-styles-wrapper .has-text-color h6 {
+.editor-styles-wrapper.editor-styles-wrapper .has-text-color h6,
+.editor-styles-wrapper.editor-styles-wrapper .has-text-color a:not(.wp-element-button) {
   color: inherit;
 }
 .editor-styles-wrapper.editor-styles-wrapper .is-root-container,
@@ -39,6 +40,9 @@
 .editor-styles-wrapper.editor-styles-wrapper .edit-post-visual-editor__post-title-wrapper > .alignfull {
   margin-left: calc(-1 * var(--wp--preset--spacing--component-padding));
   margin-right: calc(-1 * var(--wp--preset--spacing--component-padding));
+}
+.editor-styles-wrapper.editor-styles-wrapper .wp-block-gallery figcaption {
+  margin-top: calc(-1 * var(--wp--style--block-gap) + var(--wp--preset--spacing--xxs));
 }
 .editor-styles-wrapper.editor-styles-wrapper .wp-block-button.is-style-outline {
   color: var(--wp--preset--color--contrast-high);
@@ -93,6 +97,15 @@
 .editor-styles-wrapper.editor-styles-wrapper .wp-block-image {
   margin-block-start: var(--wp--preset--spacing--component-padding);
 }
+@media (min-width: 601px) {
+  .editor-styles-wrapper.editor-styles-wrapper .wp-block-media-text.is-style-overlap:not(.has-media-on-the-right) .wp-block-media-text__content {
+    margin-left: -13rem;
+  }
+}
+.editor-styles-wrapper.editor-styles-wrapper .wp-block-media-text.is-style-overlap.has-media-on-the-right .wp-block-media-text__content {
+  position: relative;
+  margin-right: -13rem;
+}
 @media (min-width: 600px) {
   .editor-styles-wrapper.editor-styles-wrapper .wp-block-navigation {
     font-size: 1.125rem;
@@ -130,4 +143,13 @@
   color: var(--wp--preset--color--contrast-high);
   border: 2px solid var(--wp--preset--color--contrast-low);
   padding: var(--wp--preset--spacing--xxxxs) var(--wp--preset--spacing--xxs);
+}
+.editor-styles-wrapper.editor-styles-wrapper .wp-block-quote.is-large:not(.is-style-plain) p,
+.editor-styles-wrapper.editor-styles-wrapper .wp-block-quote.is-style-large:not(.is-style-plain) p {
+  font-style: normal;
+  font-size: var(--wp--preset--font-size--xl);
+}
+.editor-styles-wrapper.editor-styles-wrapper .wp-block-quote.is-style-plain {
+  padding-right: 1em;
+  padding-left: 1em;
 }

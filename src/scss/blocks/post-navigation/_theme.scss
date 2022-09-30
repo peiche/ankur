@@ -1,0 +1,29 @@
+@use "./base" as *;
+
+.post-nav-links {
+	display: flex;
+    align-items: center;
+    gap: var(--wp--preset--spacing--xxxs);
+
+	.post-page-numbers {
+		background-color: var(--wp--preset--color--contrast-lower);
+		color: var(--wp--preset--color--contrast-high);
+		text-decoration: none;
+		border-radius: var(--wp--custom--radius-lg);
+		padding: var(--wp--preset--spacing--xxxs) var(--wp--preset--spacing--xs);
+		display: inline-block;
+		margin: 0;
+		
+		&.current {
+			background-color: var(--wp--preset--color--contrast-high);
+			color: var(--wp--preset--color--contrast-lower);
+		}
+	}
+
+	a {
+
+		&:hover {
+			opacity: 0.9;
+		}
+	}
+}

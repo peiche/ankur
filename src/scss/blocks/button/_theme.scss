@@ -1,6 +1,7 @@
 @use "./base" as *;
 
 .wp-block-button {
+	color: var(--wp--preset--color--bg);
 
 	&__link {
 
@@ -11,6 +12,10 @@
 		&:visited {
 			color: inherit;
 		}
+
+		&:hover {
+			opacity: 0.9;
+		}
 	}
 
 	&.is-style-underline {
@@ -19,6 +24,7 @@
 
 			&:hover {
 				text-decoration-thickness: 2px;
+				opacity: 1;
 			}
 		}
 	}

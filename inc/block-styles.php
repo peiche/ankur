@@ -69,4 +69,12 @@ add_action( 'init', function() {
             'className' => 'is-style-diamond',
         ],
     ] );
+
+    register_block_style( 'core/media-text', [
+        'name' => 'overlap',
+        'label' => __( 'Text Overlap', 'ankur' ),
+        'attributes' => [
+            'className' => 'is-style-overlap',
+        ],
+    ] );
 } );

@@ -1,0 +1,22 @@
+.wp-block-media-text {
+
+	&.is-style-overlap {
+		
+		&:not(.has-media-on-the-right) {
+			.wp-block-media-text__content {
+
+				@media (min-width: 601px) {
+					margin-left: calc(-1 * 13rem);
+				}
+			}
+		}
+
+		&.has-media-on-the-right {
+
+			.wp-block-media-text__content {
+                position: relative;
+				margin-right: calc(-1 * 13rem);
+			}
+		}
+	}
+}

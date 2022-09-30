@@ -1,1 +1,5 @@
 @use "./base" as *;
+.wp-block-quote.is-style-plain {
+    padding-right: 1em;
+    padding-left: 1em;
+}

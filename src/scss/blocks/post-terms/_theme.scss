@@ -12,6 +12,10 @@
 			border-radius: 9999px;
 			padding: var(--wp--preset--spacing--xxxs) var(--wp--preset--spacing--xs);
 			display: inline-block;
+
+			&:hover {
+				opacity: 0.9;
+			}
 		}
 
 		.wp-block-post-terms__separator {

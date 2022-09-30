@@ -12,5 +12,6 @@
 	@include meta.load-css("editor/reset");
 	@include meta.load-css("editor/typography");
 	@include meta.load-css("editor/spacing");
+	@include meta.load-css("editor/media");
 	@include meta.load-css("editor/blocks");
 }
