@@ -77,4 +77,12 @@ add_action( 'init', function() {
             'className' => 'is-style-overlap',
         ],
     ] );
+
+    register_block_style( 'core/cover', [
+        'name' => 'rounded',
+        'label' => __( 'Rounded', 'ankur' ),
+        'attributes' => [
+            'className' => 'is-style-rounded',
+        ],
+    ] );
 } );
