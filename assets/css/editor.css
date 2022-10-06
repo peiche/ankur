@@ -95,6 +95,10 @@
 .editor-styles-wrapper.editor-styles-wrapper .wp-block-image.is-style-rounded img {
   border-radius: var(--wp--custom--radius-md);
 }
+.editor-styles-wrapper.editor-styles-wrapper .wp-block-image.is-style-rounded .wp-element-caption {
+  border-bottom-left-radius: var(--wp--custom--radius-md);
+  border-bottom-right-radius: var(--wp--custom--radius-md);
+}
 .editor-styles-wrapper.editor-styles-wrapper .wp-block-image.is-style-pill img {
   border-radius: 9999px;
 }
