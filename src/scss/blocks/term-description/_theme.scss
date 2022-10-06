@@ -1,0 +1,10 @@
+@use "./base" as *;
+
+.block-term-description > * {
+	margin-block-start: 0;
+	margin-block-end: 0;
+
+	+ * {
+		margin-block-start: var(--wp--preset--spacing--component-padding);
+	}
+}
