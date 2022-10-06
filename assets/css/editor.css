@@ -52,6 +52,10 @@
   color: var(--wp--preset--color--contrast-high);
   text-decoration: 1px underline;
 }
+.editor-styles-wrapper.editor-styles-wrapper .wp-block-cover.is-style-rounded {
+  border-radius: var(--wp--custom--radius-md);
+  overflow: hidden;
+}
 .editor-styles-wrapper.editor-styles-wrapper .wp-block-embed.is-style-rounded .wp-block-embed__wrapper {
   border-radius: var(--wp--custom--radius-md);
   overflow: hidden;
