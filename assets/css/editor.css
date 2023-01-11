@@ -33,6 +33,7 @@
 }
 .editor-styles-wrapper.editor-styles-wrapper .is-root-container,
 .editor-styles-wrapper.editor-styles-wrapper .edit-post-visual-editor__post-title-wrapper {
+  margin-bottom: 1rem;
   padding-left: var(--wp--preset--spacing--component-padding);
   padding-right: var(--wp--preset--spacing--component-padding);
 }
@@ -160,4 +161,10 @@
 .editor-styles-wrapper.editor-styles-wrapper .wp-block-quote.is-style-plain {
   padding-right: 1em;
   padding-left: 1em;
+}
+.editor-styles-wrapper.editor-styles-wrapper input[type=search]::-webkit-search-decoration,
+.editor-styles-wrapper.editor-styles-wrapper input[type=search]::-webkit-search-cancel-button,
+.editor-styles-wrapper.editor-styles-wrapper input[type=search]::-webkit-search-results-button,
+.editor-styles-wrapper.editor-styles-wrapper input[type=search]::-webkit-search-results-decoration {
+  -webkit-appearance: none;
 }
