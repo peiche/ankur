@@ -4,13 +4,20 @@
 
 @media (max-width: 600px) {
 
-	.entry-content {
+	body .is-layout-constrained {
 
 		// make sure left- or right-aligned content
 		// is not floated on small screens
-		.alignright,
-		.alignleft {
+		> .alignright,
+		> .alignleft {
 			float: none;
+		}
+
+		> .alignleft {
+			margin-inline-end: 0;
+		}
+
+		> .alignright {
 			margin-inline-start: 0;
 		}
 	}
