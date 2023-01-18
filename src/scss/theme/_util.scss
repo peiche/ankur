@@ -15,23 +15,23 @@
 }
 
 .shadow-xs {
-	box-shadow: var(--wp--custom--shadow-xs);
+	box-shadow: var(--wp--preset--shadow--xs);
 }
 
 .shadow-sm {
-	box-shadow: var(--wp--custom--shadow-sm);
+	box-shadow: var(--wp--preset--shadow--sm);
 }
 
 .shadow-md {
-	box-shadow: var(--wp--custom--shadow-md);
+	box-shadow: var(--wp--preset--shadow--md);
 }
 
 .shadow-lg {
-	box-shadow: var(--wp--custom--shadow-lg);
+	box-shadow: var(--wp--preset--shadow--lg);
 }
 
 .shadow-xl {
-	box-shadow: var(--wp--custom--shadow-xl);
+	box-shadow: var(--wp--preset--shadow--xl);
 }
 
 .shadow-none {
