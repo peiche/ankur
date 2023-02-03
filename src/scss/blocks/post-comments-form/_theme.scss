@@ -14,7 +14,7 @@
 		}
 	}
 
-	input:not([type=submit]):not([type=checkbox]),
+	input:not([type="submit"]):not([type="checkbox"]),
 	textarea {
 		border: 0;
 		background-color: var(--wp--preset--color--bg);
@@ -22,6 +22,6 @@
 		line-height: calc(var(--wp--custom--line-height-body) * var(--wp--custom--line-height-multiplier, 1));
 		padding: var(--wp--preset--spacing--xxs) var(--wp--preset--spacing--xs);
 		border-radius: var(--wp--custom--radius-md);
-		box-shadow: inset 0px 0px 0px 1px var(--wp--preset--color--contrast-lower);
+		box-shadow: inset 0 0 0 1px var(--wp--preset--color--contrast-lower);
 	}
 }
