@@ -301,7 +301,7 @@ body .is-layout-constrained > .alignleft {
   line-height: calc(var(--wp--custom--line-height-body) * var(--wp--custom--line-height-multiplier, 1));
   padding: var(--wp--preset--spacing--xxs) var(--wp--preset--spacing--xs);
   border-radius: var(--wp--custom--radius-md);
-  box-shadow: inset 0px 0px 0px 1px var(--wp--preset--color--contrast-lower);
+  box-shadow: inset 0 0 0 1px var(--wp--preset--color--contrast-lower);
 }
 
 .post-nav-links {
@@ -332,6 +332,12 @@ body .is-layout-constrained > .alignleft {
   flex-wrap: wrap;
 }
 
+.wp-block-post-terms.is-style-outline a {
+  background-color: transparent;
+  color: var(--wp--preset--color--contrast-high);
+  border: 2px solid var(--wp--preset--color--contrast-low);
+  padding: var(--wp--preset--spacing--xxxxs) var(--wp--preset--spacing--xxs);
+}
 .wp-block-post-terms.is-style-buttons a, .wp-block-post-terms.is-style-outline a {
   background-color: var(--wp--preset--color--contrast-lower);
   color: var(--wp--preset--color--contrast-high);
@@ -345,12 +351,6 @@ body .is-layout-constrained > .alignleft {
 }
 .wp-block-post-terms.is-style-buttons .wp-block-post-terms__separator, .wp-block-post-terms.is-style-outline .wp-block-post-terms__separator {
   display: none;
-}
-.wp-block-post-terms.is-style-outline a {
-  background-color: transparent;
-  color: var(--wp--preset--color--contrast-high);
-  border: 2px solid var(--wp--preset--color--contrast-low);
-  padding: var(--wp--preset--spacing--xxxxs) var(--wp--preset--spacing--xxs);
 }
 
 .wp-block-quote.is-large:not(.is-style-plain) p,
