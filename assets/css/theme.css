@@ -14,7 +14,6 @@
 
 @media (min-width: 64rem) {
   body {
-    --wp--preset--font-size--base: 1.25rem;
     --wp--preset--spacing--unit: 1.25rem;
     --wp--custom--text-scale-ratio: 1.25;
   }
@@ -164,9 +163,6 @@ body .is-layout-constrained > .alignleft {
   display: none;
 }
 
-.wp-block-button.is-style-outline {
-  color: var(--wp--preset--color--contrast-high);
-}
 .wp-block-button.is-style-underline > .wp-block-button__link {
   background-color: transparent;
   color: var(--wp--preset--color--contrast-high);
@@ -192,6 +188,10 @@ body .is-layout-constrained > .alignleft {
   overflow: hidden;
 }
 
+.wp-block-embed {
+  margin-block-start: inherit;
+  margin-block-end: inherit;
+}
 .wp-block-embed.is-style-rounded .wp-block-embed__wrapper {
   border-radius: var(--wp--custom--radius-md);
   overflow: hidden;
@@ -228,12 +228,9 @@ body .is-layout-constrained > .alignleft {
   transform: scale(1.414) rotate(45deg);
 }
 
-.wp-block-image.is-style-rounded img {
-  border-radius: var(--wp--custom--radius-md);
-}
-.wp-block-image.is-style-rounded .wp-element-caption {
-  border-bottom-left-radius: var(--wp--custom--radius-md);
-  border-bottom-right-radius: var(--wp--custom--radius-md);
+.wp-block-image {
+  margin-block-start: inherit;
+  margin-block-end: inherit;
 }
 .wp-block-image.is-style-pill img {
   border-radius: 9999px;
@@ -353,8 +350,13 @@ body .is-layout-constrained > .alignleft {
   display: none;
 }
 
-.wp-block-quote.is-large:not(.is-style-plain) p,
-.wp-block-quote.is-style-large:not(.is-style-plain) p {
+.wp-block-quote.is-large,
+.wp-block-quote.is-style-large {
+  padding-left: 0;
+  padding-right: 0;
+}
+.wp-block-quote.is-large p,
+.wp-block-quote.is-style-large p {
   font-style: normal;
   font-size: var(--wp--preset--font-size--xl);
 }
@@ -401,4 +403,12 @@ input[type=search]::-webkit-search-results-decoration {
 }
 .wp-block-term-description > * + * {
   margin-block-start: var(--wp--preset--spacing--component-padding);
+}
+
+.wp-block-video {
+  margin-block-start: inherit;
+  margin-block-end: inherit;
+}
+.wp-block-video.is-style-rounded video {
+  border-radius: var(--wp--custom--radius-md);
 }
