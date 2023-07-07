@@ -85,4 +85,12 @@ add_action( 'init', function() {
 			'className' => 'is-style-rounded',
 		],
 	] );
+
+	register_block_style( 'core/video', [
+		'name' => 'rounded',
+		'label' => __( 'Rounded', 'ankur' ),
+		'attributes' => [
+			'className' => 'is-style-rounded',
+		],
+	] );
 } );

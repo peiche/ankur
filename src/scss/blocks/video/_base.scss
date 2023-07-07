@@ -1,0 +1,11 @@
+.wp-block-video {
+	margin-block-start: inherit;
+	margin-block-end: inherit;
+
+	&.is-style-rounded {
+
+		video {
+			border-radius: var(--wp--custom--radius-md);
+		}
+	}
+}
