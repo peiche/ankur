@@ -55,8 +55,9 @@
   border-radius: var(--wp--custom--radius-md);
   overflow: hidden;
 }
-.editor-styles-wrapper.editor-styles-wrapper .wp-block-embed {
-  margin-top: var(--wp--preset--spacing--component-padding);
+.editor-styles-wrapper.editor-styles-wrapper .wp-block-embed.is-loading {
+  flex-direction: column;
+  align-items: center;
 }
 .editor-styles-wrapper.editor-styles-wrapper .wp-block-post-featured-image img {
   border-radius: inherit;
