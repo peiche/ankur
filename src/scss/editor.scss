@@ -2,10 +2,9 @@
 
 // Double up specificity to override inline styles
 .editor-styles-wrapper.editor-styles-wrapper {
-
-	@include meta.load-css("editor/reset");
-	@include meta.load-css("editor/typography");
-	@include meta.load-css("editor/spacing");
-	@include meta.load-css("editor/media");
-	@include meta.load-css("editor/blocks");
+  @include meta.load-css("editor/reset");
+  @include meta.load-css("editor/typography");
+  @include meta.load-css("editor/spacing");
+  @include meta.load-css("editor/media");
+  @include meta.load-css("editor/blocks");
 }

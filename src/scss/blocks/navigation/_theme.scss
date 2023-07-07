@@ -1,10 +1,12 @@
 @use "./base" as *;
 
-.wp-block-navigation.has-text-decoration-underline .wp-block-navigation-item__content,
-.wp-block-navigation.has-text-decoration-underline .wp-block-navigation-item__content:active,
-.wp-block-navigation.has-text-decoration-underline .wp-block-navigation-item__content:focus {
-
-	&:hover {
-		text-decoration-thickness: 2px;
-	}
+.wp-block-navigation.has-text-decoration-underline
+  .wp-block-navigation-item__content,
+.wp-block-navigation.has-text-decoration-underline
+  .wp-block-navigation-item__content:active,
+.wp-block-navigation.has-text-decoration-underline
+  .wp-block-navigation-item__content:focus {
+  &:hover {
+    text-decoration-thickness: 2px;
+  }
 }

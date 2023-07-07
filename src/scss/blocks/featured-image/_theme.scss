@@ -1,11 +1,9 @@
 @use "./base" as *;
 
 .wp-block-post-featured-image {
-
-	> a {
-
-		&:hover {
-			opacity: 0.9;
-		}
-	}
+  > a {
+    &:hover {
+      opacity: 0.9;
+    }
+  }
 }

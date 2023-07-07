@@ -1,31 +1,28 @@
 @use "./base" as *;
 
 .wp-block-button {
-	color: var(--wp--preset--color--bg);
+  color: var(--wp--preset--color--bg);
 
-	&__link {
+  &__link {
+    // override inline default
+    &:active,
+    &:focus,
+    &:hover,
+    &:visited {
+      color: inherit;
+    }
 
-		// override inline default
-		&:active,
-		&:focus,
-		&:hover,
-		&:visited {
-			color: inherit;
-		}
+    &:hover {
+      opacity: 0.9;
+    }
+  }
 
-		&:hover {
-			opacity: 0.9;
-		}
-	}
-
-	&.is-style-underline {
-
-		.wp-block-button__link {
-
-			&:hover {
-				text-decoration-thickness: 2px;
-				opacity: 1;
-			}
-		}
-	}
+  &.is-style-underline {
+    .wp-block-button__link {
+      &:hover {
+        text-decoration-thickness: 2px;
+        opacity: 1;
+      }
+    }
+  }
 }

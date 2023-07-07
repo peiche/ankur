@@ -1,11 +1,10 @@
 .wp-block-image {
-	margin-block-start: inherit;
-	margin-block-end: inherit;
+  margin-block-start: inherit;
+  margin-block-end: inherit;
 
-	&.is-style-pill {
-
-		img {
-			border-radius: 9999px;
-		}
-	}
+  &.is-style-pill {
+    img {
+      border-radius: 9999px;
+    }
+  }
 }

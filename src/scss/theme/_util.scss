@@ -1,65 +1,63 @@
 .radius-sm {
-	border-radius: var(--wp--custom--radius-sm);
+  border-radius: var(--wp--custom--radius-sm);
 }
 
 .radius-md {
-	border-radius: var(--wp--custom--radius-md);
+  border-radius: var(--wp--custom--radius-md);
 }
 
 .radius-lg {
-	border-radius: var(--wp--custom--radius-lg);
+  border-radius: var(--wp--custom--radius-lg);
 }
 
 .radius-50\% {
-	border-radius: 50%;
+  border-radius: 50%;
 }
 
 .shadow-xs {
-	box-shadow: var(--wp--preset--shadow--xs);
+  box-shadow: var(--wp--preset--shadow--xs);
 }
 
 .shadow-sm {
-	box-shadow: var(--wp--preset--shadow--sm);
+  box-shadow: var(--wp--preset--shadow--sm);
 }
 
 .shadow-md {
-	box-shadow: var(--wp--preset--shadow--md);
+  box-shadow: var(--wp--preset--shadow--md);
 }
 
 .shadow-lg {
-	box-shadow: var(--wp--preset--shadow--lg);
+  box-shadow: var(--wp--preset--shadow--lg);
 }
 
 .shadow-xl {
-	box-shadow: var(--wp--preset--shadow--xl);
+  box-shadow: var(--wp--preset--shadow--xl);
 }
 
 .shadow-none {
-	box-shadow: none;
+  box-shadow: none;
 }
 
 .text-nowrap {
-	white-space: nowrap;
+  white-space: nowrap;
 }
 
 .margin-0 {
-	margin: 0;
+  margin: 0;
 }
 
 .is-hidden {
-	display: none;
+  display: none;
 }
 
 .is-hidden-on-mobile {
-
-	@media (max-width: 781px) {
-		display: none;
-	}
+  @media (max-width: 781px) {
+    display: none;
+  }
 }
 
 .is-hidden-on-desktop {
-
-	@media (min-width: 782px) {
-		display: none;
-	}
+  @media (min-width: 782px) {
+    display: none;
+  }
 }

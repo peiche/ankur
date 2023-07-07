@@ -1,24 +1,22 @@
 @use "./base" as *;
 
 .wp-block-post-author {
+  .avatar,
+  &__avatar {
+    border-radius: inherit;
+  }
 
-	.avatar,
-	&__avatar {
-		border-radius: inherit;
-	}
+  &__avatar {
+    display: inline-flex;
+  }
 
-	&__avatar {
-		display: inline-flex;
-	}
+  &.is-content-hidden {
+    .wp-block-post-author__avatar {
+      margin-right: 0;
+    }
 
-	&.is-content-hidden {
-
-		.wp-block-post-author__avatar {
-			margin-right: 0;
-		}
-
-		.wp-block-post-author__content {
-			display: none;
-		}
-	}
+    .wp-block-post-author__content {
+      display: none;
+    }
+  }
 }

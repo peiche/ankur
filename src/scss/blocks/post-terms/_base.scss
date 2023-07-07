@@ -1,9 +1,8 @@
 .wp-block-post-terms {
-
-	&.is-style-buttons,
-	&.is-style-outline {
-		display: inline-flex;
-		gap: 4px;
-		flex-wrap: wrap;
-	}
+  &.is-style-buttons,
+  &.is-style-outline {
+    display: inline-flex;
+    gap: 4px;
+    flex-wrap: wrap;
+  }
 }

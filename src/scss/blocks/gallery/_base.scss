@@ -1,35 +1,33 @@
 .wp-block-gallery {
+  &.has-nested-images {
+    figure.wp-block-image figcaption,
+    figure.wp-block-image.is-style-rounded figcaption.wp-element-caption {
+      background: linear-gradient(0deg, #000000b3, #0000004d 70%, #0000);
+      bottom: 0;
+      box-sizing: border-box;
+      color: #fff;
+      font-size: var(--wp--preset--font-size--sm);
+      left: 0;
+      margin-bottom: 0;
+      max-height: 60%;
+      overflow: auto;
+      padding: 0 8px 8px;
+      position: absolute;
+      text-align: center;
+      width: 100%;
+    }
+  }
 
-	&.has-nested-images {
+  &.is-style-diamond {
+    transform: scale(0.71) rotate(-45deg);
 
-		figure.wp-block-image figcaption,
-		figure.wp-block-image.is-style-rounded figcaption.wp-element-caption {
-			background: linear-gradient(0deg, #000000b3, #0000004d 70%, #0000);
-			bottom: 0;
-			box-sizing: border-box;
-			color: #fff;
-			font-size: var(--wp--preset--font-size--sm);
-			left: 0;
-			margin-bottom: 0;
-			max-height: 60%;
-			overflow: auto;
-			padding: 0 8px 8px;
-			position: absolute;
-			text-align: center;
-			width: 100%;
-		}
-	}
+    .wp-block-image {
+      aspect-ratio: 1;
+      overflow: hidden;
 
-	&.is-style-diamond {
-		transform: scale(0.71) rotate(-45deg);
-
-		.wp-block-image {
-			aspect-ratio: 1;
-			overflow: hidden;
-
-			img {
-				transform: scale(1.414) rotate(45deg);
-			}
-		}
-	}
+      img {
+        transform: scale(1.414) rotate(45deg);
+      }
+    }
+  }
 }

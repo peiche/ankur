@@ -1,28 +1,24 @@
 @use "./base" as *;
 
 .wp-block-query-pagination {
+  &.is-style-buttons {
+    .page-numbers,
+    .wp-block-query-pagination-previous,
+    .wp-block-query-pagination-next {
+      &:hover {
+        text-decoration: none;
+      }
+    }
 
-	&.is-style-buttons {
+    .page-numbers.current {
+      background-color: var(--wp--preset--color--contrast-high);
+      color: var(--wp--preset--color--contrast-lower);
+    }
 
-		.page-numbers,
-		.wp-block-query-pagination-previous,
-		.wp-block-query-pagination-next {
-
-			&:hover {
-				text-decoration: none;
-			}
-		}
-
-		.page-numbers.current {
-			background-color: var(--wp--preset--color--contrast-high);
-			color: var(--wp--preset--color--contrast-lower);
-		}
-
-		a {
-
-			&:hover {
-				opacity: 0.9;
-			}
-		}
-	}
+    a {
+      &:hover {
+        opacity: 0.9;
+      }
+    }
+  }
 }

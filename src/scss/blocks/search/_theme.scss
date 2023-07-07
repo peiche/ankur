@@ -1,41 +1,36 @@
 @use "./base" as *;
 
 .wp-block-search {
-	max-width: 100%;
+  max-width: 100%;
 
-	&__button {
-		background: none;
+  &__button {
+    background: none;
 
-		&.has-icon {
-			margin: 0;
-			border: 0;
-			padding: var(--wp--preset--spacing--xxxxs);
-		}
-	}
+    &.has-icon {
+      margin: 0;
+      border: 0;
+      padding: var(--wp--preset--spacing--xxxxs);
+    }
+  }
 
-	&__inside-wrapper {
-		background-color: var(--wp--preset--color--white);
-		padding:
-			var(--wp--preset--spacing--xxxs)
-			var(--wp--preset--spacing--xxxs)
-			var(--wp--preset--spacing--xxxs)
-			var(--wp--preset--spacing--xxs);
+  &__inside-wrapper {
+    background-color: var(--wp--preset--color--white);
+    padding: var(--wp--preset--spacing--xxxs) var(--wp--preset--spacing--xxxs)
+      var(--wp--preset--spacing--xxxs) var(--wp--preset--spacing--xxs);
 
-		@media (min-width: 64rem) {
-			padding:
-				var(--wp--preset--spacing--xxxxs)
-				var(--wp--preset--spacing--xxxxs)
-				var(--wp--preset--spacing--xxxxs)
-				var(--wp--preset--spacing--xxxs);
-		}
-	}
+    @media (min-width: 64rem) {
+      padding: var(--wp--preset--spacing--xxxxs)
+        var(--wp--preset--spacing--xxxxs) var(--wp--preset--spacing--xxxxs)
+        var(--wp--preset--spacing--xxxs);
+    }
+  }
 
-	&__input {
-		background: none;
-		font-size: inherit;
-	}
+  &__input {
+    background: none;
+    font-size: inherit;
+  }
 }
 
 .is-menu-open.has-modal-open .wp-block-search {
-	width: 100%;
+  width: 100%;
 }

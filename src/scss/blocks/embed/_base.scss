@@ -1,12 +1,11 @@
 .wp-block-embed {
-	margin-block-start: inherit;
-	margin-block-end: inherit;
+  margin-block-start: inherit;
+  margin-block-end: inherit;
 
-	&.is-style-rounded {
-
-		.wp-block-embed__wrapper {
-			border-radius: var(--wp--custom--radius-md);
-			overflow: hidden;
-		}
-	}
+  &.is-style-rounded {
+    .wp-block-embed__wrapper {
+      border-radius: var(--wp--custom--radius-md);
+      overflow: hidden;
+    }
+  }
 }

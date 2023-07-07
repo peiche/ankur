@@ -1,30 +1,29 @@
 .wp-block-post-title {
-	font-size: var(--wp--preset--font-size--xxxl);
+  font-size: var(--wp--preset--font-size--xxxl);
 }
 
 .wp-block-paragraph {
-	line-height: 1.58;
+  line-height: 1.58;
 }
 
 p,
 html :where(.editor-styles-wrapper) p {
-	font-size: var(--wp--preset--font-size--base);
+  font-size: var(--wp--preset--font-size--base);
 }
 
 .alignfull {
-	margin-left: auto;
-	margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .has-text-color {
-
-	h1,
-	h2,
-	h3,
-	h4,
-	h5,
-	h6,
-	a:not(.wp-element-button) {
-		color: inherit;
-	}
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  a:not(.wp-element-button) {
+    color: inherit;
+  }
 }

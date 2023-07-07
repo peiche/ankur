@@ -1,7 +1,6 @@
 .wp-block-cover {
-
-	&.is-style-rounded {
-		border-radius: var(--wp--custom--radius-md);
-		overflow: hidden;
-	}
+  &.is-style-rounded {
+    border-radius: var(--wp--custom--radius-md);
+    overflow: hidden;
+  }
 }

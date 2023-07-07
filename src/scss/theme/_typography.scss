@@ -1,26 +1,24 @@
 .has-text-color {
-
-	h1,
-	h2,
-	h3,
-	h4,
-	h5,
-	h6,
-	a:not(.wp-element-button) {
-		color: inherit;
-	}
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  a:not(.wp-element-button) {
+    color: inherit;
+  }
 }
 
 @media (min-width: 64rem) {
-
-	body {
-		--wp--preset--spacing--unit: 1.25rem;
-		--wp--custom--text-scale-ratio: 1.25;
-	}
+  body {
+    --wp--preset--spacing--unit: 1.25rem;
+    --wp--custom--text-scale-ratio: 1.25;
+  }
 }
 
 .entry-content :not(.wp-block-code) > code {
-	background-color: var(--wp--preset--color--contrast-lower);
-	padding: var(--wp--preset--spacing--xxxxs) var(--wp--preset--spacing--xxxxs);
-	border-radius: var(--wp--custom--radius-sm);
+  background-color: var(--wp--preset--color--contrast-lower);
+  padding: var(--wp--preset--spacing--xxxxs) var(--wp--preset--spacing--xxxxs);
+  border-radius: var(--wp--custom--radius-sm);
 }

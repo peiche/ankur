@@ -1,9 +1,8 @@
 @use "./base" as *;
 
 .wp-block-embed {
-
-	&.is-loading {
-		flex-direction: column;
-		align-items: center;
-	}
+  &.is-loading {
+    flex-direction: column;
+    align-items: center;
+  }
 }

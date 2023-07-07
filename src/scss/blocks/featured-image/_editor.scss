@@ -1,8 +1,7 @@
 @use "./base" as *;
 
 .wp-block-post-featured-image {
-
-	img {
-		border-radius: inherit;
-	}
+  img {
+    border-radius: inherit;
+  }
 }
