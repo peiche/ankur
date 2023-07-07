@@ -1,16 +1,6 @@
 .wp-block-image {
-
-	&.is-style-rounded {
-
-		img {
-			border-radius: var(--wp--custom--radius-md);
-		}
-
-		.wp-element-caption {
-			border-bottom-left-radius: var(--wp--custom--radius-md);
-			border-bottom-right-radius: var(--wp--custom--radius-md);
-		}
-	}
+	margin-block-start: inherit;
+	margin-block-end: inherit;
 
 	&.is-style-pill {
 
