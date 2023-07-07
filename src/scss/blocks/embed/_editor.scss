@@ -1,5 +1,9 @@
 @use "./base" as *;
 
 .wp-block-embed {
-	margin-top: var(--wp--preset--spacing--component-padding);
+
+	&.is-loading {
+		flex-direction: column;
+		align-items: center;
+	}
 }
