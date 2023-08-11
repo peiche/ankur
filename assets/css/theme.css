@@ -381,6 +381,7 @@ input[type=search]::-webkit-search-results-decoration {
 }
 .wp-block-search__inside-wrapper {
   background-color: var(--wp--preset--color--white);
+  margin-top: 0;
   padding: var(--wp--preset--spacing--xxxs) var(--wp--preset--spacing--xxxs) var(--wp--preset--spacing--xxxs) var(--wp--preset--spacing--xxs);
 }
 @media (min-width: 64rem) {
@@ -395,6 +396,10 @@ input[type=search]::-webkit-search-results-decoration {
 
 .is-menu-open.has-modal-open .wp-block-search {
   width: 100%;
+}
+
+.wp-block-social-links {
+  gap: var(--wp--preset--spacing--xs);
 }
 
 .wp-block-term-description > * {
