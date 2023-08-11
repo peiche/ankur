@@ -1,19 +1,23 @@
-<!-- wp:template-part {"slug":"header","tagName":"header","className":"site-header"} /-->
+<!-- wp:template-part {"slug":"header","theme":"ankur","tagName":"header","className":"site-header"} /-->
 
-<!-- wp:group {"tagName":"main","layout":{"inherit":true}} -->
+<!-- wp:group {"tagName":"main","layout":{"type":"default"}} -->
 <main class="wp-block-group">
-  <!-- wp:heading {"fontSize":"xxxl"} -->
-  <h2 class="has-xxxl-font-size">Not Found</h2>
-  <!-- /wp:heading -->
+  <!-- wp:group {"layout":{"type":"constrained"}} -->
+  <div class="wp-block-group">
+    <!-- wp:heading {"fontSize":"xxxl"} -->
+    <h2 class="wp-block-heading has-xxxl-font-size">Not Found</h2>
+    <!-- /wp:heading -->
 
-  <!-- wp:paragraph -->
-  <p>We couldn't find what you're looking for.</p>
-  <!-- /wp:paragraph -->
+    <!-- wp:paragraph -->
+    <p>We couldn't find what you're looking for.</p>
+    <!-- /wp:paragraph -->
 
-  <!-- wp:spacer {"height":"40px"} -->
-  <div style="height: 40px" aria-hidden="true" class="wp-block-spacer"></div>
-  <!-- /wp:spacer -->
+    <!-- wp:spacer {"height":"40px"} -->
+    <div style="height: 40px" aria-hidden="true" class="wp-block-spacer"></div>
+    <!-- /wp:spacer -->
+  </div>
+  <!-- /wp:group -->
 </main>
 <!-- /wp:group -->
 
-<!-- wp:template-part {"slug":"footer","tagName":"footer","className":"site-footer"} /-->
+<!-- wp:template-part {"slug":"footer","theme":"ankur","tagName":"footer","className":"site-footer"} /-->

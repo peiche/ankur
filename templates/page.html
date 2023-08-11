@@ -1,8 +1,12 @@
-<!-- wp:template-part {"slug":"header","tagName":"header","className":"site-header"} /-->
+<!-- wp:template-part {"slug":"header","theme":"ankur","tagName":"header","className":"site-header"} /-->
 
-<!-- wp:group {"tagName":"main","layout":{"inherit":true}} -->
+<!-- wp:group {"tagName":"main","layout":{"type":"default"}} -->
 <main class="wp-block-group">
-  <!-- wp:post-title {"style":{"spacing":{"margin":{"top":"4rem"}}},"fontSize":"xxxl"} /-->
+  <!-- wp:group {"layout":{"type":"constrained"}} -->
+  <div class="wp-block-group">
+    <!-- wp:post-title {"style":{"spacing":{"margin":{"top":"4rem"}}},"fontSize":"xxxl"} /-->
+  </div>
+  <!-- /wp:group -->
 
   <!-- wp:post-content {"align":"full","layout":{"inherit":true}} /-->
 
@@ -12,4 +16,4 @@
 </main>
 <!-- /wp:group -->
 
-<!-- wp:template-part {"slug":"footer","tagName":"footer","className":"site-footer"} /-->
+<!-- wp:template-part {"slug":"footer","theme":"ankur","tagName":"footer","className":"site-footer"} /-->
