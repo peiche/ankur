@@ -8,13 +8,13 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
 
-Ankur is a block theme for WordPress. It is also named after a Sanskrit word which means "flower," imagery often used to depict a new beginning. At the same time, an anchor (because I love wordplay) symbolizes stability and confidence. With Ankur as the fully customizable starting point, whether as a brand new site or revamping an existing one, you can tell your story with clean typography and bold colors.
+Ankur is a block theme for WordPress. It's named after a Sanskrit word which means "flower," imagery often used to depict a new beginning. At the same time, an anchor (because I love wordplay) symbolizes stability and confidence. With Ankur as the fully customizable starting point, whether as a brand new site or revamping an existing one, you can tell your story with clean typography and bold colors.
 
 See CHANGELOG.md for changes.
 
 == Copyright ==
 
-Ankur WordPress Theme, (C) 2022 Paul Eiche
+Ankur WordPress Theme, (C) 2023 Paul Eiche
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
