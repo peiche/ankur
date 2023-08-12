@@ -1,6 +1,6 @@
 # Ankur Block Theme
 
-Ankur is a block theme for WordPress. It is also named after a Sanskrit word which means "flower," imagery often used to depict a new beginning. At the same time, an anchor (because I love wordplay) symbolizes stability and confidence. With Ankur as the fully customizable starting point, whether as a brand new site or revamping an existing one, you can tell your story with clean typography and bold colors.
+Ankur is a block theme for WordPress. It's named after a Sanskrit word which means "flower," imagery often used to depict a new beginning. At the same time, an anchor (because I love wordplay) symbolizes stability and confidence. With Ankur as the fully customizable starting point, whether as a brand new site or revamping an existing one, you can tell your story with clean typography and bold colors.
 
 ## Style Variants
 
@@ -37,6 +37,10 @@ You can install the development dependencies by running `npm i`. The following c
 - [Setting up a development environment](https://developer.wordpress.org/block-editor/handbook/tutorials/devenv/)
 - [Block theme documentation](https://developer.wordpress.org/block-editor/how-to-guides/themes/block-theme-overview)
 - [Global Styles and theme.json documentation](https://developer.wordpress.org/block-editor/how-to-guides/themes/theme-json/)
+
+## Assets
+
+- [Image used in screenshot](https://unsplash.com/photos/fXzcEptNAmQ) - [Unsplash License](https://unsplash.com/license)
 
 ## Demo Site
 
