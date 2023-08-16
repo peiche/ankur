@@ -1,7 +1,7 @@
 <?php
  /**
- * Title: Author, Minimal
- * Slug: ankur/author-minimal
+ * Title: Author, Simple
+ * Slug: ankur/author-simple
  * Categories: author
  * Inserter: yes
  */

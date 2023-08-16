@@ -1,7 +1,7 @@
 <?php
  /**
- * Title: Call to Action Banner v2
- * Slug: ankur/call-to-action-banner-v2
+ * Title: Call to Action Banner
+ * Slug: ankur/call-to-action-banner
  * Categories: banner
  * Inserter: yes
  */
