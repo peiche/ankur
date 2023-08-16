@@ -40,7 +40,7 @@ You can install the development dependencies by running `npm i`. The following c
 
 ## Assets
 
-- [Image used in screenshot](https://unsplash.com/photos/fXzcEptNAmQ) - [Unsplash License](https://unsplash.com/license)
+- [Image used in screenshot](https://openverse.org/image/e53180cc-4cc0-490a-ad80-783422b05ff3) - [CC BY-NC 2.0](https://creativecommons.org/licenses/by-nc/2.0/)
 
 ## Demo Site
 
