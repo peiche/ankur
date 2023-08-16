@@ -7,11 +7,12 @@
 
 add_action( 'init', function() {
     $block_pattern_categories = array(
-        'author' => array( 'label' => __( 'Ankur/Author', 'ankur' ) ),
-        'banner' => array( 'label' => __( 'Ankur/Banner', 'ankur' ) ),
-        'card'   => array( 'label' => __( 'Ankur/Card', 'ankur' ) ),
-        'hero'   => array( 'label' => __( 'Ankur/Hero', 'ankur' ) ),
-        'quote'  => array( 'label' => __( 'Ankur/Quote', 'ankur' ) ),
+        'author' => array( 'label' => __( 'Author', 'ankur' ) ),
+        'banner' => array( 'label' => __( 'Banner', 'ankur' ) ),
+        'card'   => array( 'label' => __( 'Card', 'ankur' ) ),
+        'header' => array( 'label' => __( 'Header', 'ankur' ) ),
+        'hero'   => array( 'label' => __( 'Hero', 'ankur' ) ),
+        'quote'  => array( 'label' => __( 'Quote', 'ankur' ) ),
     );
 
     foreach ( $block_pattern_categories as $name => $properties ) {
