@@ -11,12 +11,6 @@ name: Generate Installable Theme and Upload as Release Asset
 on:
   release:
     types: [published]
-  # workflow_dispatch:
-  #   inputs:
-  #     logLevel:
-  #       description: 'Log level'     
-  #       required: true
-  #       default: 'warning'
 jobs:
   build:
     name: Upload Release
