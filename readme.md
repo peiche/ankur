@@ -8,7 +8,7 @@ Ankur comes bundled with multiple style variants: light, dark, and three nature-
 
 ## Change Log
 
-See [change log](./CHANGELOG.md)
+See [change log](./CHANGELOG.md).
 
 ## Download
 
@@ -35,10 +35,9 @@ To build and run locally, you will also need:
 
 You can install the development dependencies by running `npm i`. The following commands are available:
 
-- `npm run lint:css` lints the CSS
+- `npm run lint` lints the CSS
 - `npm run build` compiles the SCSS to CSS
-- `npm run export` creates dependency-free directory for upload
-- `npm run zip` creates a zip file using the directory created in the export task
+- `npm run export` creates dependency-free directory and zip file for upload
 
 ### Resources
 
