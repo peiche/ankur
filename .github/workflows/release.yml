@@ -2,7 +2,6 @@
 # also create a release of the installable plugin.
 # Steps to execute:
 # - Checkout the source code
-# - Run "composer install" to download all Composer dependencies under vendor/
 # - Run "npm install" to download all npm dependencies under node_modules/
 # - Build project using internal build process
 # - Create a .zip file, excluding hidden and build-process files
@@ -12,18 +11,18 @@ name: Generate Installable Theme and Upload as Release Asset
 on:
   release:
     types: [published]
-  workflow_dispatch:
-    inputs:
-      logLevel:
-        description: 'Log level'     
-        required: true
-        default: 'warning'
+  # workflow_dispatch:
+  #   inputs:
+  #     logLevel:
+  #       description: 'Log level'     
+  #       required: true
+  #       default: 'warning'
 jobs:
   build:
     name: Upload Release
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
     - uses: bahmutov/npm-install@v1
     - run: |
         npm run build
@@ -35,6 +34,6 @@ jobs:
         path: build/ankur.zip
     - uses: JasonEtco/upload-to-release@master
       with:
-        args: build/garrick.zip application/zip
+        args: build/ankur.zip application/zip
       env: 
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
