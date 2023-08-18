@@ -5,10 +5,12 @@
   "scripts": {
     "lint:css": "wp-scripts lint-style \"src/**/*.scss\"",
     "lint": "npm run lint:css",
-    "clean": "rimraf \"./assets\" \"./ankur\"",
+    "clean": "rimraf \"./assets\" \"./build\"",
     "build": "npm run prettier:check && npm run clean && wp-scripts build",
-    "export": "copyfiles assets/**/* inc/**/* parts/**/* patterns/**/* src/**/* styles/**/* templates/**/* *.php readme.txt style.css theme.json ankur",
-    "zip": "bestzip ankur.zip ankur",
+    "mkdir:build": "mkdirp build",
+    "copy": "copyfiles assets/**/* inc/**/* parts/**/* patterns/**/* src/**/* styles/**/* templates/**/* *.php readme.txt style.css theme.json build/ankur",
+    "zip": "cd build && bestzip ankur.zip ankur",
+    "export": "npm run mkdir:build && npm run copy && npm run zip",
     "prettier:check": "prettier --check \"{inc,parts,patterns,src,styles,templates}/**/*.+(html|scss)\"",
     "prettier:write": "prettier --write \"{inc,parts,patterns,src,styles,templates}/**/*.+(html|scss)\""
   },
@@ -28,6 +30,7 @@
     "bestzip": "^2.2.1",
     "copyfiles": "^2.4.1",
     "mini-css-extract-plugin": "^2.6.0",
+    "mkdirp": "^3.0.1",
     "path": "^0.12.7",
     "postcss-preset-env": "^7.7.1",
     "prettier": "^3.0.0",
