@@ -2,7 +2,6 @@
 # also create a release of the installable plugin.
 # Steps to execute:
 # - Checkout the source code
-# - Run "composer install" to download all Composer dependencies under vendor/
 # - Run "npm install" to download all npm dependencies under node_modules/
 # - Build project using internal build process
 # - Create a .zip file, excluding hidden and build-process files
@@ -23,7 +22,7 @@ jobs:
     name: Upload Release
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
     - uses: bahmutov/npm-install@v1
     - run: |
         npm run build
