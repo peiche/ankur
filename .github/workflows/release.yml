@@ -34,6 +34,6 @@ jobs:
         path: build/ankur.zip
     - uses: JasonEtco/upload-to-release@master
       with:
-        args: build/garrick.zip application/zip
+        args: build/ankur.zip application/zip
       env: 
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
