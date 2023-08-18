@@ -6,6 +6,14 @@ Ankur is a WordPress block theme with support for color variations and custom pa
 
 Ankur comes bundled with multiple style variants: light, dark, and three nature-themed alternates. To apply one of these styles, open the new Site Editor and select the Styles icon at the top right of the toolbar. In the Styles sidebar, you'll be able to pick your theme's style from the "Other styles" option.
 
+## Change Log
+
+See [change log](./CHANGELOG.md)
+
+## Download
+
+Download the latest release from [GitHub](https://github.com/peiche/ankur/releases/latest).
+
 ## Development
 
 To get started:
