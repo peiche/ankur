@@ -1,10 +1,13 @@
 <?php
- /**
+/**
  * Title: Call to Action Banner with Image
  * Slug: ankur/call-to-action-banner-image
  * Categories: banner
  * Inserter: yes
+ *
+ * @package Ankur
  */
+
 ?>
 
 <!-- wp:group {"style":{"border":{"radius":"0.5rem"}},"backgroundColor":"bg"} -->

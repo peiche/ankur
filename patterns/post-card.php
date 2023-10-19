@@ -1,10 +1,13 @@
 <?php
- /**
+/**
  * Title: Post, Card
  * Slug: ankur/post-card
  * Categories: card
  * Inserter: yes
+ *
+ * @package Ankur
  */
+
 ?>
 
 <!-- wp:group {"style":{"border":{"radius":"4px"},"spacing":{"padding":{"bottom":"var:preset|spacing|component-padding","left":"0","right":"0","top":"0"}},"elements":{"link":{"color":{"text":"var:preset|color|contrast-high"}}}},"backgroundColor":"bg","textColor":"contrast-high","layout":{"type":"default"}} -->

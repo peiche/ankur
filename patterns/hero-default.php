@@ -1,10 +1,13 @@
 <?php
- /**
+/**
  * Title: Hero, Default
  * Slug: ankur/hero-default
  * Categories: hero
  * Inserter: yes
+ *
+ * @package Ankur
  */
+
 ?>
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"0px"}},"layout":{"inherit":true}} -->

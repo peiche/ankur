@@ -1,10 +1,13 @@
 <?php
- /**
+/**
  * Title: Author, Default
  * Slug: ankur/author-default
  * Categories: author
  * Inserter: yes
+ *
+ * @package Ankur
  */
+
 ?>
 
 <!-- wp:group {"style":{"border":{"radius":"5px"}},"layout":{"inherit":true}} -->

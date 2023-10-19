@@ -1,10 +1,13 @@
 <?php
- /**
+/**
  * Title: Author, Simple
  * Slug: ankur/author-simple
  * Categories: author
  * Inserter: yes
+ *
+ * @package Ankur
  */
+
 ?>
 
 <!-- wp:group {"layout":{"inherit":true}} -->

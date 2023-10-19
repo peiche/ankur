@@ -1,10 +1,13 @@
 <?php
- /**
+/**
  * Title: Header, Centered
  * Slug: ankur/header-centered
  * Categories: header
  * Inserter: yes
+ *
+ * @package Ankur
  */
+
 ?>
 
 <!-- wp:group {"tagName":"header","align":"full","style":{"spacing":{"padding":{"right":"var:preset|spacing|component-padding","left":"var:preset|spacing|component-padding"}}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->

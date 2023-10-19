@@ -1,10 +1,13 @@
 <?php
- /**
+/**
  * Title: Author, Featured
  * Slug: ankur/author-featured
  * Categories: author
  * Inserter: yes
+ *
+ * @package Ankur
  */
+
 ?>
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"0.75rem"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->

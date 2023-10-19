@@ -1,10 +1,13 @@
 <?php
- /**
+/**
  * Title: Hero, Overlay Image
  * Slug: ankur/hero-overlay
  * Categories: hero
  * Inserter: yes
+ *
+ * @package Ankur
  */
+
 ?>
 
 <!-- wp:cover {"dimRatio":50,"overlayColor":"bg","focalPoint":{"x":"0.46","y":"0.09"},"isDark":false} -->

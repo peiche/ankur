@@ -10,44 +10,53 @@
 
 /**
  * Enqueue the style.css file.
- * 
+ *
  * @since 1.0.0
  */
-add_action( 'wp_enqueue_scripts', function() {
-	wp_enqueue_style(
-		'ankur-style',
-		get_template_directory_uri() . '/assets/css/theme.css',
-		array(),
-		filemtime( get_template_directory() . '/assets/css/theme.css' )
-	);
-} );
+add_action(
+	'wp_enqueue_scripts',
+	function () {
+		wp_enqueue_style(
+			'ankur-style',
+			get_template_directory_uri() . '/assets/css/theme.css',
+			array(),
+			filemtime( get_template_directory() . '/assets/css/theme.css' )
+		);
+	}
+);
 
 /**
  * Add block styles support.
- * 
+ *
  * @since 1.0.0
  */
-add_action( 'after_setup_theme', function() {
-	add_theme_support( 'wp-block-styles' );
-} );
+add_action(
+	'after_setup_theme',
+	function () {
+		add_theme_support( 'wp-block-styles' );
+	}
+);
 
 /**
- * Additional editor styles. 
+ * Additional editor styles.
  * Using `add_editor_style` doesn't allow the styles to be inherited by child themes.
- * 
+ *
  * @since 1.0.0
  */
-add_action( 'enqueue_block_editor_assets', function() {
-	wp_enqueue_style(
-		'ankur-editor-style',
-		get_template_directory_uri() . '/assets/css/editor.css',
-		array(),
-		filemtime( get_template_directory() . '/assets/css/editor.css' )
-	);
-} );
+add_action(
+	'enqueue_block_editor_assets',
+	function () {
+		wp_enqueue_style(
+			'ankur-editor-style',
+			get_template_directory_uri() . '/assets/css/editor.css',
+			array(),
+			filemtime( get_template_directory() . '/assets/css/editor.css' )
+		);
+	}
+);
 
-// Add block styles
+// Add block styles.
 require get_template_directory() . '/inc/block-styles.php';
 
-// Add block patterns
+// Add block patterns.
 require get_template_directory() . '/inc/block-patterns.php';

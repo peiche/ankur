@@ -1,10 +1,13 @@
 <?php
- /**
+/**
  * Title: Footer, Default
  * Slug: ankur/footer-default
  * Categories: footer
  * Inserter: yes
+ *
+ * @package Ankur
  */
+
 ?>
 
 <!-- wp:group {"tagName":"footer","style":{"spacing":{"padding":{"top":"var:preset|spacing|component-padding","bottom":"var:preset|spacing|component-padding"}}},"layout":{"type":"constrained"}} -->

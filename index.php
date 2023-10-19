@@ -1,2 +1,6 @@
 <?php
-// can be removed after WP 6.0
+/**
+ * Can be removed after WP 6.0
+ *
+ * @package Ankur
+ */

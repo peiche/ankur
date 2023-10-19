@@ -1,10 +1,13 @@
 <?php
- /**
+/**
  * Title: Quote, Full Width
  * Slug: ankur/quote-full-width
  * Categories: quote
  * Inserter: yes
+ *
+ * @package Ankur
  */
+
 ?>
 
 <!-- wp:group {"style":{"spacing":{"padding":{"right":"var:preset|spacing|unit","left":"1rem","top":"8rem","bottom":"8rem"}}},"backgroundColor":"contrast-lower"} -->
