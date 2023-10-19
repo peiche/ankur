@@ -1,5 +1,6 @@
 {
     "name": "peiche/ankur",
+    "description": "WordPress block theme supporting full site editing",
     "type": "wordpress-theme",
     "license": "GPL-2.0-or-later",
     "authors": [
