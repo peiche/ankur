@@ -3,11 +3,12 @@
   "version": "1.0.0",
   "description": "WordPress block theme supporting full site editing",
   "scripts": {
+    "lint:css": "wp-scripts lint-style \"src/**/*.scss\"",
     "prettier:check": "prettier --check \"{inc,parts,patterns,src,styles,templates}/**/*.+(html|scss)\"",
     "prettier:write": "prettier --write \"{inc,parts,patterns,src,styles,templates}/**/*.+(html|scss)\"",
     "phpcs": "cross-env ./vendor/bin/phpcs --warning-severity=0 ./",
     "phpcb": "php ./vendor/bin/phpcbf --ignore=*/build/*,*/node_modules/*,*/vendor/* ./",
-    "lint": "npm run prettier:check && npm run phpcs",
+    "lint": "npm run lint:css && npm run prettier:check && npm run phpcs",
     "fix": "npm run prettier:write && npm run phpcb",
     "clean": "rimraf \"./assets\" \"./build\"",
     "build": "npm run lint && npm run clean && wp-scripts build",

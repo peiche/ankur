@@ -3,8 +3,14 @@
 		"@wordpress/stylelint-config/scss"
 	],
 	"rules": {
+		"at-rule-empty-line-before": null,
 		"block-no-empty": null,
+		"declaration-colon-newline-after": null,
+		"function-parentheses-space-inside": null,
+		"indentation": null,
 		"no-empty-source": null,
+		"rule-empty-line-before": null,
+		"scss/operator-no-newline-after": null,
 		"selector-class-pattern": null
 	}
 }
