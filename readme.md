@@ -1,3 +1,5 @@
+[![CI](https://github.com/peiche/ankur/actions/workflows/ci.yml/badge.svg)](https://github.com/peiche/ankur/actions/workflows/ci.yml)
+
 # Ankur Block Theme
 
 Ankur is a WordPress block theme with support for color variations and custom patterns. It's named after a Sanskrit word which means "flower," imagery often used to depict a new beginning. At the same time, an anchor (because I love wordplay) symbolizes stability and confidence. With Ankur as the fully customizable starting point, whether as a brand new site or revamping an existing one, you can tell your story with clean typography and bold colors.
