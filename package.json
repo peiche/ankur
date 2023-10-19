@@ -3,16 +3,18 @@
   "version": "1.0.0",
   "description": "WordPress block theme supporting full site editing",
   "scripts": {
-    "lint:css": "wp-scripts lint-style \"src/**/*.scss\"",
-    "lint": "npm run lint:css",
+    "prettier:check": "prettier --check \"{inc,parts,patterns,src,styles,templates}/**/*.+(html|scss)\"",
+    "prettier:write": "prettier --write \"{inc,parts,patterns,src,styles,templates}/**/*.+(html|scss)\"",
+    "phpcs": "cross-env ./vendor/bin/phpcs --warning-severity=0 ./",
+    "phpcb": "php ./vendor/bin/phpcbf --ignore=*/build/*,*/node_modules/*,*/vendor/* ./",
+    "lint": "npm run prettier:check && npm run phpcs",
+    "fix": "npm run prettier:write && npm run phpcb",
     "clean": "rimraf \"./assets\" \"./build\"",
     "build": "npm run prettier:check && npm run clean && wp-scripts build",
     "mkdir:build": "mkdirp build",
     "copy": "copyfiles assets/**/* inc/**/* parts/**/* patterns/**/* src/**/* styles/**/* templates/**/* *.php readme.txt screenshot.jpg style.css theme.json build/ankur",
     "zip": "cd build && bestzip ankur.zip ankur",
-    "export": "npm run mkdir:build && npm run copy && npm run zip",
-    "prettier:check": "prettier --check \"{inc,parts,patterns,src,styles,templates}/**/*.+(html|scss)\"",
-    "prettier:write": "prettier --write \"{inc,parts,patterns,src,styles,templates}/**/*.+(html|scss)\""
+    "export": "npm run mkdir:build && npm run copy && npm run zip"
   },
   "repository": {
     "type": "git",
@@ -36,5 +38,8 @@
     "prettier": "^3.0.0",
     "rimraf": "^2.7.1",
     "webpack-fix-style-only-entries": "^0.6.1"
+  },
+  "dependencies": {
+    "cross-env": "^7.0.3"
   }
 }
