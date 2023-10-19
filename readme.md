@@ -27,17 +27,18 @@ To get started:
 
 - WordPress 5.9+
 - PHP 7.4+
-- License: [GPLv2](http://www.gnu.org/licenses/gpl-2.0.html) or later
+- License: [GPLv2 or later](http://www.gnu.org/licenses/gpl-2.0.html)
 
 Some theme features may require Gutenberg.
 
 To build and run locally, you will also need:
 
 - [Node.js](https://nodejs.org/en/)
+- [Composer](https://getcomposer.org/)
 
-You can install the development dependencies by running `npm i`. The following commands are available:
+You can install the development dependencies by running `npm i` and `composer install`. The following commands are available:
 
-- `npm run lint` lints the CSS
+- `npm run lint` lints the CSS and checks the CSS and HTML for formatting issues
 - `npm run build` compiles the SCSS to CSS
 - `npm run export` creates dependency-free directory and zip file for upload
 
