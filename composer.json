@@ -1,7 +1,7 @@
 {
     "name": "peiche/ankur",
     "type": "wordpress-theme",
-    "license": "GPLv2",
+    "license": "GPL-2.0-or-later",
     "authors": [
         {
             "name": "Paul",
