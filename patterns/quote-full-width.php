@@ -19,7 +19,7 @@
 
 <!-- wp:quote {"align":"center","className":"is-style-large"} -->
 <blockquote class="wp-block-quote has-text-align-center is-style-large"><!-- wp:paragraph -->
-<p>Your time is limited, so don't waste it living someone else's life. Don't be trapped by dogma – which is living with the results of other people's thinking.</p>
-<!-- /wp:paragraph --><cite>— Steve Jobs</cite></blockquote>
+<p><?php echo esc_html_x( 'Your time is limited, so don\'t waste it living someone else\'s life. Don\'t be trapped by dogma – which is living with the results of other people\'s thinking.', 'sample content for quote', 'ankur' ); ?></p>
+<!-- /wp:paragraph --><cite><?php echo esc_html_x( '— Steve Jobs', 'sample content for citation', 'ankur' ); ?></cite></blockquote>
 <!-- /wp:quote --></div>
 <!-- /wp:group -->

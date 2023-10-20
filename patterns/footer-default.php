@@ -24,7 +24,15 @@
 <!-- /wp:social-links -->
 
 <!-- wp:paragraph -->
-<p>Powered by <a href="https://wordpress.org/" data-type="link" data-id="https://wordpress.org/">WordPress</a></p>
+<p>
+    <?php
+        printf(
+            /* Translators: WordPress link. */
+            esc_html__( 'Proudly powered by %s', 'ankur' ),
+            '<a data-type="link" data-id="https://wordpress.org/" href="' . esc_url( __( 'https://wordpress.org', 'twentytwentythree' ) ) . '" rel="nofollow">WordPress</a>'
+        );
+    ?>
+</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></footer>
