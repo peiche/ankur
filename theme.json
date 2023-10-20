@@ -603,6 +603,20 @@
 					}
 				}
 			},
+			"core/query-pagination-previous": {
+				"spacing": {
+					"margin": {
+						"bottom": "0 !important"
+					}
+				}
+			},
+			"core/query-pagination-next": {
+				"spacing": {
+					"margin": {
+						"bottom": "0 !important"
+					}
+				}
+			},
 			"core/image": {
 				"variations": {
 					"rounded": {
