@@ -10,3 +10,15 @@
     text-decoration-thickness: 2px;
   }
 }
+
+.entry-content {
+  .wp-block-navigation:where(:not([class*="has-text-decoration"])) {
+    a {
+      text-decoration: underline;
+
+      &:hover {
+        text-decoration-thickness: 2px;
+      }
+    }
+  }
+}
