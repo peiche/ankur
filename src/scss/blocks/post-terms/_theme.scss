@@ -1,9 +1,13 @@
 @use "./base" as *;
 
 .wp-block-post-terms {
+  &.is-style-buttons a {
+    background-color: var(--wp--preset--color--contrast-lower);
+    padding: var(--wp--preset--spacing--xxxs) var(--wp--preset--spacing--xs);
+  }
+
   &.is-style-outline a {
     background-color: transparent;
-    color: var(--wp--preset--color--contrast-high);
     border: 2px solid var(--wp--preset--color--contrast-low);
     padding: var(--wp--preset--spacing--xxxxs) var(--wp--preset--spacing--xxs);
   }
@@ -11,11 +15,9 @@
   &.is-style-buttons,
   &.is-style-outline {
     a {
-      background-color: var(--wp--preset--color--contrast-lower);
       color: var(--wp--preset--color--contrast-high);
       text-decoration: none;
       border-radius: 9999px;
-      padding: var(--wp--preset--spacing--xxxs) var(--wp--preset--spacing--xs);
       display: inline-block;
 
       &:hover {
