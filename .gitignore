@@ -1,6 +1,5 @@
 assets
-node_modules
 build
-*.zip
-
-/vendor/
+node_modules
+vendor
+*.pot
