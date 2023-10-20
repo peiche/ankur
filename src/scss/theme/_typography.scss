@@ -22,3 +22,7 @@
   padding: var(--wp--preset--spacing--xxxxs) var(--wp--preset--spacing--xxxxs);
   border-radius: var(--wp--custom--radius-sm);
 }
+
+pre {
+  white-space: pre-wrap;
+}
