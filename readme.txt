@@ -25,3 +25,8 @@ This program is distributed in the hope that it will be useful,
 but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 GNU General Public License for more details.
+
+Image for theme screenshot, Credit Stew Dean
+License: CC BY-NC 2.0
+License URL: https://creativecommons.org/licenses/by-nc/2.0/
+Source: https://openverse.org/image/e53180cc-4cc0-490a-ad80-783422b05ff3
