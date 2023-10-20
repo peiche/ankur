@@ -6,16 +6,19 @@
     "lint:css": "wp-scripts lint-style \"src/**/*.scss\"",
     "prettier:check": "prettier --check \"{inc,parts,patterns,src,styles,templates}/**/*.+(html|scss)\"",
     "prettier:write": "prettier --write \"{inc,parts,patterns,src,styles,templates}/**/*.+(html|scss)\"",
-    "phpcs": "cross-env ./vendor/bin/phpcs --warning-severity=0 ./",
-    "phpcb": "php ./vendor/bin/phpcbf --ignore=*/build/*,*/node_modules/*,*/vendor/* ./",
-    "lint": "npm run lint:css && npm run prettier:check && npm run phpcs",
+    "lint:php": "cross-env ./vendor/bin/phpcs --warning-severity=0 ./",
+    "lint:php:fix": "php ./vendor/bin/phpcbf --ignore=*/build/*,*/node_modules/*,*/vendor/* ./",
+    "lint": "npm run lint:css && npm run prettier:check && npm run lint:php",
     "fix": "npm run prettier:write && npm run phpcb",
-    "clean": "rimraf \"./assets\" \"./build\"",
-    "build": "npm run lint && npm run clean && wp-scripts build",
+    "clean": "rimraf \"./assets\" \"./build\" \"ankur.pot\"",
+    "build": "npm run lint && npm run clean && wp-scripts build && npm run i18n",
     "mkdir:build": "mkdirp build",
-    "copy": "copyfiles assets/**/* inc/**/* parts/**/* patterns/**/* src/**/* styles/**/* templates/**/* *.php readme.txt screenshot.jpg style.css theme.json build/ankur",
+    "copy": "copyfiles assets/**/* inc/**/* parts/**/* patterns/**/* src/**/* styles/**/* templates/**/* *.php readme.txt screenshot.jpg style.css theme.json ankur.pot build/ankur",
     "zip": "cd build && bestzip ankur.zip ankur",
-    "export": "npm run mkdir:build && npm run copy && npm run zip"
+    "export": "npm run mkdir:build && npm run copy && npm run zip",
+    "i18n:textdomain": "wpi18n addtextdomain --exclude=node_modules,vendor",
+    "i18n:pot": "wpi18n makepot",
+    "i18n": "npm run i18n:textdomain && npm run i18n:pot"
   },
   "repository": {
     "type": "git",
@@ -41,6 +44,7 @@
     "webpack-fix-style-only-entries": "^0.6.1"
   },
   "dependencies": {
-    "cross-env": "^7.0.3"
+    "cross-env": "^7.0.3",
+    "node-wp-i18n": "^1.2.7"
   }
 }
