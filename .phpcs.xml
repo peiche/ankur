@@ -23,4 +23,9 @@
 			</property>
 		</properties>
 	</rule>
+
+	<!-- Ignore EOL character differnces. -->
+	<rule ref="Generic.Files.LineEndings">
+		<exclude name="Generic.Files.LineEndings.InvalidEOLChar"/>
+	</rule>
 </ruleset>
