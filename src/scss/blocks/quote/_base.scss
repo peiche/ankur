@@ -1,10 +1,14 @@
-.wp-block-quote.is-large,
-.wp-block-quote.is-style-large {
-  padding-left: 0;
-  padding-right: 0;
+.wp-block-quote {
+  margin-block-start: var(--wp--preset--spacing--component-padding);
 
-  p {
-    font-style: normal;
-    font-size: var(--wp--preset--font-size--xl);
+  &.wp-block-quote.is-large,
+  &.wp-block-quote.is-style-large {
+    padding-left: 0;
+    padding-right: 0;
+
+    p {
+      font-style: normal;
+      font-size: var(--wp--preset--font-size--xl);
+    }
   }
 }
