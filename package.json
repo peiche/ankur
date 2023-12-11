@@ -1,6 +1,6 @@
 {
   "name": "ankur",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "WordPress block theme supporting full site editing",
   "scripts": {
     "lint:css": "wp-scripts lint-style \"src/**/*.scss\"",
