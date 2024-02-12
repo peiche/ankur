@@ -13,121 +13,88 @@ function ankur_register_block_styles() {
 	register_block_style(
 		'core/button',
 		array(
-			'name'       => 'underline',
-			'label'      => __( 'Underline', 'ankur' ),
-			'attributes' => array(
-				'className' => 'is-style-underline',
-			),
+			'name'  => 'underline',
+			'label' => __( 'Underline', 'ankur' ),
 		)
 	);
 
 	register_block_style(
 		'core/query-pagination',
 		array(
-			'name'       => 'buttons',
-			'label'      => __( 'Buttons', 'ankur' ),
-			'attributes' => array(
-				'className' => 'is-style-buttons',
-			),
+			'name'  => 'buttons',
+			'label' => __( 'Buttons', 'ankur' ),
 		)
 	);
 
 	register_block_style(
 		'core/post-terms',
 		array(
-			'name'       => 'buttons',
-			'label'      => __( 'Buttons', 'ankur' ),
-			'attributes' => array(
-				'className' => 'is-style-buttons',
-			),
+			'name'  => 'buttons',
+			'label' => __( 'Buttons', 'ankur' ),
 		)
 	);
 
 	register_block_style(
 		'core/post-terms',
 		array(
-			'name'       => 'outline',
-			'label'      => __( 'Outline', 'ankur' ),
-			'attributes' => array(
-				'className' => 'is-style-outline',
-			),
+			'name'  => 'outline',
+			'label' => __( 'Outline', 'ankur' ),
 		)
 	);
 
 	register_block_style(
 		'core/quote',
 		array(
-			'name'       => 'large',
-			'label'      => __( 'Large', 'ankur' ),
-			'attributes' => array(
-				'className' => 'is-style-large',
-			),
+			'name'  => 'large',
+			'label' => __( 'Large', 'ankur' ),
 		)
 	);
 
 	register_block_style(
 		'core/image',
 		array(
-			'name'       => 'pill',
-			'label'      => __( 'Pill', 'ankur' ),
-			'attributes' => array(
-				'className' => 'is-style-pill',
-			),
+			'name'  => 'pill',
+			'label' => __( 'Pill', 'ankur' ),
 		)
 	);
 
 	register_block_style(
 		'core/embed',
 		array(
-			'name'       => 'rounded',
-			'label'      => __( 'Rounded', 'ankur' ),
-			'attributes' => array(
-				'className' => 'is-style-rounded',
-			),
+			'name'  => 'rounded',
+			'label' => __( 'Rounded', 'ankur' ),
 		)
 	);
 
 	register_block_style(
 		'core/gallery',
 		array(
-			'name'       => 'diamond',
-			'label'      => __( 'Diamond', 'ankur' ),
-			'attributes' => array(
-				'className' => 'is-style-diamond',
-			),
+			'name'  => 'diamond',
+			'label' => __( 'Diamond', 'ankur' ),
 		)
 	);
 
 	register_block_style(
 		'core/media-text',
 		array(
-			'name'       => 'overlap',
-			'label'      => __( 'Text Overlap', 'ankur' ),
-			'attributes' => array(
-				'className' => 'is-style-overlap',
-			),
+			'name'  => 'overlap',
+			'label' => __( 'Text Overlap', 'ankur' ),
 		)
 	);
 
 	register_block_style(
 		'core/cover',
 		array(
-			'name'       => 'rounded',
-			'label'      => __( 'Rounded', 'ankur' ),
-			'attributes' => array(
-				'className' => 'is-style-rounded',
-			),
+			'name'  => 'rounded',
+			'label' => __( 'Rounded', 'ankur' ),
 		)
 	);
 
 	register_block_style(
 		'core/video',
 		array(
-			'name'       => 'rounded',
-			'label'      => __( 'Rounded', 'ankur' ),
-			'attributes' => array(
-				'className' => 'is-style-rounded',
-			),
+			'name'  => 'rounded',
+			'label' => __( 'Rounded', 'ankur' ),
 		)
 	);
 }
