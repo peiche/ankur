@@ -191,75 +191,85 @@
 					"slug": "base",
 					"size": "1rem",
 					"fluid": {
+						"min": "1rem",
 						"max": "1.125rem"
 					}
 				},
 				{
 					"name": "xs",
 					"slug": "xs",
-					"size": "calc((var(--wp--preset--font-size--base) / var(--wp--custom--text-scale-ratio)) / var(--wp--custom--text-scale-ratio))",
+					"size": "0.75rem",
 					"fluid": {
+						"min": "0.6875rem",
 						"max": "0.75rem"
 					}
 				},
 				{
 					"name": "sm",
 					"slug": "sm",
-					"size": "calc(var(--wp--preset--font-size--xs) * var(--wp--custom--text-scale-ratio))",
+					"size": "0.9375rem",
 					"fluid": {
+						"min": "0.8125rem",
 						"max": "0.9375rem"
 					}
 				},
 				{
 					"name": "md",
 					"slug": "md",
-					"size": "calc(var(--wp--preset--font-size--sm) * var(--wp--custom--text-scale-ratio) * var(--wp--custom--text-scale-ratio))",
+					"size": "1.375rem",
 					"fluid": {
+						"min": "1.1875rem",
 						"max": "1.375rem"
 					}
 				},
 				{
 					"name": "lg",
 					"slug": "lg",
-					"size": "calc(var(--wp--preset--font-size--md) * var(--wp--custom--text-scale-ratio))",
+					"size": "1.625rem",
 					"fluid": {
+						"min": "1.4375rem",
 						"max": "1.625rem"
 					}
 				},
 				{
 					"name": "xl",
 					"slug": "xl",
-					"size": "calc(var(--wp--preset--font-size--lg) * var(--wp--custom--text-scale-ratio))",
+					"size": "2rem",
 					"fluid": {
+						"min": "1.75rem",
 						"max": "2rem"
 					}
 				},
 				{
 					"name": "xxl",
 					"slug": "xxl",
-					"size": "calc(var(--wp--preset--font-size--xl) * var(--wp--custom--text-scale-ratio))",
+					"size": "2.5rem",
 					"fluid": {
+						"min": "2.0625rem",
 						"max": "2.5rem"
 					}
 				},
 				{
 					"name": "xxxl",
 					"slug": "xxxl",
-					"size": "calc(var(--wp--preset--font-size--xxl) * var(--wp--custom--text-scale-ratio))",
+					"size": "3rem",
 					"fluid": {
+						"min": "2.5rem",
 						"max": "3rem"
 					}
 				},
 				{
 					"name": "xxxxl",
 					"slug": "xxxxl",
-					"size": "calc(var(--wp--preset--font-size--xxxl) * var(--wp--custom--text-scale-ratio))",
+					"size": "3.625rem",
 					"fluid": {
+						"min": "3rem",
 						"max": "3.625rem"
 					}
 				}
 			],
-			"lineHeight": true
+			"lineHeight": true,
+			"writingMode": true
 		},
 		"shadow": {
 			"presets": [
@@ -590,6 +600,14 @@
 						"spacing": {
 							"padding": {
 								"left": "0"
+							}
+						}
+					},
+					"large": {
+						"spacing": {
+							"padding": {
+								"left": "0",
+								"right": "0"
 							}
 						}
 					}

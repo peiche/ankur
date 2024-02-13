@@ -5,4 +5,5 @@ export default {
         "stylelint-config-prettier"
     ],
     ...wordpressPrettierConfig,
+    "endOfLine": "auto",
 };
