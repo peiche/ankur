@@ -12,14 +12,13 @@
 
 @media (min-width: 64rem) {
   body {
-    --wp--preset--spacing--unit: 1.25rem;
-    --wp--custom--text-scale-ratio: 1.25;
+    --wp--preset--spacing--40: 1.25rem;
   }
 }
 
 .entry-content :not(.wp-block-code) > code {
   background-color: var(--wp--preset--color--contrast-lower);
-  padding: var(--wp--preset--spacing--xxxxs) var(--wp--preset--spacing--xxxxs);
+  padding: var(--wp--preset--spacing--10) var(--wp--preset--spacing--10);
   border-radius: var(--wp--custom--radius-sm);
 }
 

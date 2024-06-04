@@ -1,4 +1,8 @@
 .wp-block-gallery {
+  &:not(.has-nested-images) {
+    margin-top: var(--wp--preset--spacing--40);
+  }
+
   &.has-nested-images {
     figure.wp-block-image figcaption,
     figure.wp-block-image.is-style-rounded figcaption.wp-element-caption {

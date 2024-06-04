@@ -1,7 +1,7 @@
 @use "./base" as *;
 
 .wp-block-embed {
-  margin-top: var(--wp--preset--spacing--component-padding);
+  margin-top: var(--wp--preset--spacing--40);
 
   &.is-loading {
     flex-direction: column;

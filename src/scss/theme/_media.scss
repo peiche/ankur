@@ -43,11 +43,11 @@
 .wp-block-image figcaption,
 .wp-block-table figcaption,
 .wp-block-video figcaption {
-  margin-top: var(--wp--preset--spacing--xxs);
+  margin-top: var(--wp--preset--spacing--30);
 }
 
 .wp-block-gallery figcaption {
   margin-top: calc(
-    (-1 * var(--wp--style--block-gap)) + var(--wp--preset--spacing--xxs)
+    (-1 * var(--wp--style--block-gap)) + var(--wp--preset--spacing--30)
   );
 }
