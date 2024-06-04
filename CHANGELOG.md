@@ -1,5 +1,11 @@
 # Change Log
 
+## 1.1.0
+
+- Now using v3 of theme.json schema.
+- Removed defined spacing sizes in favor of spacing scale generated ones.
+- Replaced spacing class names with equivalents.
+
 ## 1.0.4
 
 - Fixed responsive font sizes to improve readability. 
