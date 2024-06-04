@@ -9,20 +9,19 @@
     &.has-icon {
       margin: 0;
       border: 0;
-      padding: var(--wp--preset--spacing--xxxxs);
+      padding: var(--wp--preset--spacing--10);
     }
   }
 
   &__inside-wrapper {
     background-color: var(--wp--preset--color--white);
     margin-top: 0;
-    padding: var(--wp--preset--spacing--xxxs) var(--wp--preset--spacing--xxxs)
-      var(--wp--preset--spacing--xxxs) var(--wp--preset--spacing--xxs);
+    padding: var(--wp--preset--spacing--20) var(--wp--preset--spacing--20)
+      var(--wp--preset--spacing--20) var(--wp--preset--spacing--30);
 
     @media (min-width: 64rem) {
-      padding: var(--wp--preset--spacing--xxxxs)
-        var(--wp--preset--spacing--xxxxs) var(--wp--preset--spacing--xxxxs)
-        var(--wp--preset--spacing--xxxs);
+      padding: var(--wp--preset--spacing--10) var(--wp--preset--spacing--10)
+        var(--wp--preset--spacing--10) var(--wp--preset--spacing--20);
     }
   }
 

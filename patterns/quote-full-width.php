@@ -11,7 +11,7 @@
 ?>
 
 <!-- wp:group {"style":{"spacing":{"padding":{"right":"var:preset|spacing|unit","left":"1rem","top":"8rem","bottom":"8rem"}}},"backgroundColor":"contrast-lower"} -->
-<div class="wp-block-group has-contrast-lower-background-color has-background" style="padding-top:8rem;padding-right:var(--wp--preset--spacing--unit);padding-bottom:8rem;padding-left:1rem"><!-- wp:group {"textColor":"contrast-low","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"center"},"fontSize":"xxxxl"} -->
+<div class="wp-block-group has-contrast-lower-background-color has-background" style="padding-top:8rem;padding-right:var(--wp--preset--spacing--40);padding-bottom:8rem;padding-left:1rem"><!-- wp:group {"textColor":"contrast-low","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"center"},"fontSize":"xxxxl"} -->
 <div class="wp-block-group has-contrast-low-color has-text-color has-xxxxl-font-size"><!-- wp:html -->
 <svg class="icon" aria-hidden="true" viewBox="0 0 64 64"><polygon fill="currentColor" points="2 36 17 2 26 2 15 36 26 36 26 62 2 62 2 36"></polygon><polygon fill="currentColor" points="38 36 53 2 62 2 51 36 62 36 62 62 38 62 38 36"></polygon></svg>
 <!-- /wp:html --></div>

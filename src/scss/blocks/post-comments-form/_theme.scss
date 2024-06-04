@@ -7,7 +7,7 @@
   .comment-form-comment {
     label {
       display: block;
-      margin-bottom: var(--wp--preset--spacing--xxs);
+      margin-bottom: var(--wp--preset--spacing--30);
       font-size: var(--wp--preset--font-size--sm);
     }
   }
@@ -21,7 +21,7 @@
       var(--wp--custom--line-height-body) *
         var(--wp--custom--line-height-multiplier, 1)
     );
-    padding: var(--wp--preset--spacing--xxs) var(--wp--preset--spacing--xs);
+    padding: var(--wp--preset--spacing--30) var(--wp--preset--spacing--40);
     border-radius: var(--wp--custom--radius-md);
     box-shadow: inset 0 0 0 1px var(--wp--preset--color--contrast-lower);
   }

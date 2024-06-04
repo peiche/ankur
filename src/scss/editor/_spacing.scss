@@ -1,11 +1,11 @@
 .is-root-container,
 .edit-post-visual-editor__post-title-wrapper {
   margin-bottom: 1rem;
-  padding-left: var(--wp--preset--spacing--component-padding);
-  padding-right: var(--wp--preset--spacing--component-padding);
+  padding-left: var(--wp--preset--spacing--40);
+  padding-right: var(--wp--preset--spacing--40);
 
   > .alignfull {
-    margin-left: calc(-1 * var(--wp--preset--spacing--component-padding));
-    margin-right: calc(-1 * var(--wp--preset--spacing--component-padding));
+    margin-left: calc(-1 * var(--wp--preset--spacing--40));
+    margin-right: calc(-1 * var(--wp--preset--spacing--40));
   }
 }

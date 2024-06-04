@@ -3,13 +3,13 @@
 .wp-block-post-terms {
   &.is-style-buttons a {
     background-color: var(--wp--preset--color--contrast-lower);
-    padding: var(--wp--preset--spacing--xxxs) var(--wp--preset--spacing--xs);
+    padding: var(--wp--preset--spacing--20) var(--wp--preset--spacing--40);
   }
 
   &.is-style-outline a {
     background-color: transparent;
     border: 2px solid var(--wp--preset--color--contrast-low);
-    padding: var(--wp--preset--spacing--xxxxs) var(--wp--preset--spacing--xxs);
+    padding: var(--wp--preset--spacing--10) var(--wp--preset--spacing--30);
   }
 
   &.is-style-buttons,

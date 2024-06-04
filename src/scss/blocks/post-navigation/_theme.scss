@@ -3,14 +3,14 @@
 .post-nav-links {
   display: flex;
   align-items: center;
-  gap: var(--wp--preset--spacing--xxxs);
+  gap: var(--wp--preset--spacing--20);
 
   .post-page-numbers {
     background-color: var(--wp--preset--color--contrast-lower);
     color: var(--wp--preset--color--contrast-high);
     text-decoration: none;
     border-radius: var(--wp--custom--radius-lg);
-    padding: var(--wp--preset--spacing--xxxs) var(--wp--preset--spacing--xs);
+    padding: var(--wp--preset--spacing--20) var(--wp--preset--spacing--40);
     display: inline-block;
     margin: 0;
 
