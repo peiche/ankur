@@ -9,7 +9,7 @@
     &.has-icon {
       margin: 0;
       border: 0;
-      padding: var(--wp--preset--spacing--10);
+      padding: var(--wp--preset--spacing--20);
     }
   }
 
@@ -18,11 +18,6 @@
     margin-top: 0;
     padding: var(--wp--preset--spacing--20) var(--wp--preset--spacing--20)
       var(--wp--preset--spacing--20) var(--wp--preset--spacing--30);
-
-    @media (min-width: 64rem) {
-      padding: var(--wp--preset--spacing--10) var(--wp--preset--spacing--10)
-        var(--wp--preset--spacing--10) var(--wp--preset--spacing--20);
-    }
   }
 
   &__input {
