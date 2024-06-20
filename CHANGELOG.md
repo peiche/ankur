@@ -1,5 +1,10 @@
 # Change Log
 
+## 1.1.1
+
+- Fixed broken spacing in post terms, search, and code blocks.
+- Vulnerability fix for `braces` package.
+
 ## 1.1.0
 
 - Now using v3 of theme.json schema.
