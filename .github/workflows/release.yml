@@ -23,8 +23,6 @@ jobs:
     - run: |
         composer validate --no-check-all --strict
     - run: |
-        npm run build
-    - run: |
         npm run export
     - uses: actions/upload-artifact@v2
       with:
