@@ -14,5 +14,3 @@ jobs:
         composer install --optimize-autoloader
     - run: |
         composer validate --no-check-all --strict
-    - run: |
-        npm run build
