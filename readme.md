@@ -2,11 +2,7 @@
 
 # Ankur Block Theme
 
-Ankur is a WordPress block theme with support for color variations and custom patterns. It's named after a Sanskrit word which means "flower," imagery often used to depict a new beginning. At the same time, an anchor (because I love wordplay) symbolizes stability and confidence. With Ankur as the fully customizable starting point, whether as a brand new site or revamping an existing one, you can tell your story with clean typography and bold colors.
-
-## Style Variants
-
-Ankur comes bundled with multiple style variants: light, dark, and three nature-themed alternates. To apply one of these styles, open the new Site Editor and select the Styles icon at the top right of the toolbar. In the Styles sidebar, you'll be able to pick your theme's style from the "Other styles" option.
+Ankur is a modern WordPress block theme. It's named after a Sanskrit word which means "flower," imagery often used to depict a new beginning. At the same time, an anchor (because I love wordplay) symbolizes stability and confidence. With Ankur as the fully customizable starting point, whether as a brand new site or revamping an existing one, you can tell your story with clean typography and bold colors.
 
 ## Change Log
 
@@ -20,16 +16,14 @@ Download the latest release from [GitHub](https://github.com/peiche/ankur/releas
 
 To get started:
 
-1. Set up a WordPress instance. (I use [Local](https://localwp.com/).)
+1. Set up a WordPress instance. (I use [WordPress Studio](https://developer.wordpress.com/docs/developer-tools/studio/).)
 2. Clone or download this repository in the `/wp-content/themes/` directory.
 
 ### Requirements
 
-- WordPress 5.9+
-- PHP 7.4+
+- WordPress 6.6+
+- PHP 8.0+
 - License: [GPLv2 or later](http://www.gnu.org/licenses/gpl-2.0.html)
-
-Some theme features may require Gutenberg.
 
 To build and run locally, you will also need:
 
@@ -38,8 +32,7 @@ To build and run locally, you will also need:
 
 You can install the development dependencies by running `npm i` and `composer install`. The following commands are available:
 
-- `npm run lint` lints the CSS and checks the CSS and HTML for formatting issues
-- `npm run build` compiles the SCSS to CSS
+- `npm run lint` checks the HTML and PHP files for formatting issues
 - `npm run export` creates dependency-free directory and zip file for upload
 
 ### Resources

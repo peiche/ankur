@@ -1,5 +1,14 @@
 # Change Log
 
+## 2.0.0
+
+- Updated theme.json schema to 6.9.
+- Moved all custom CSS to theme.json.
+- Removed custom patterns.
+- Removed color styles.
+- Simplified loop template part.
+- Added post template part for use in loop.
+
 ## 1.1.1
 
 - Fixed broken spacing in post terms, search, and code blocks.
