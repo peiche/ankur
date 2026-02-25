@@ -29,9 +29,9 @@ jobs:
     - uses: actions/upload-artifact@v2
       with:
         name: ankur
-        path: build/ankur.zip
+        path: export/ankur.zip
     - uses: JasonEtco/upload-to-release@master
       with:
-        args: build/ankur.zip application/zip
+        args: export/ankur.zip application/zip
       env: 
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
